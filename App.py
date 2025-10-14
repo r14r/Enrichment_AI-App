@@ -32,7 +32,7 @@ new_use_cases = [
 navigation = st.navigation(
     {
         "🏠 Start": [st.Page("views/Start.py", title="🏠 Übersicht")],
-        "💬 Chat": chat_and_content,
+        "💬 Mit Prompts Arbeiten": chat_and_content,
         "🖼️ Bilder analysieren": vision_and_media,
         "📊 Q & A": analysis_and_rag,
         "🚀 Weitere Beispiele": new_use_cases,

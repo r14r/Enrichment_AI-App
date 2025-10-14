@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("⚡ Enrichment MiniApps – Übersicht")
+st.title("⚡ Enrichment Apps – Übersicht")
 
-st.subheader("Willkommen bei den Enrichment MiniApps")
+st.subheader("Willkommen bei den Enrichment Apps")
 st.markdown(
     """
     Wähle in der Navigation eine App aus. Unter **🚀 Neue Use Cases** findest du die zehn frischen Beispiele
@@ -15,8 +15,9 @@ st.divider()
 st.subheader("Neu in Vision & Medien")
 st.markdown(
     """
-    - 🎨 **Image Creator** – Erzeuge Bilder direkt aus deinen Prompts.
-    - 🎥 **Video Generator** – Kombiniere Szenen-Prompts zu einem Slideshow-Video mit optionalem Audiotrack.
-    - 📥 **YouTube Media Studio** – Lade Videos herunter, exportiere Audio und erstelle Transkripte als Text, SRT oder VTT.
+       - 💬 Chat
+       - 🖼️ Bilder analysieren
+       - 📊 Q & A
+       - 🚀 Weitere Beispiele
     """
 )
