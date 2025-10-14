@@ -1,59 +1,58 @@
+"""Streamlit mini app for vision model inference."""
+
+from __future__ import annotations
+
 import base64
 import json
 
 import requests
 import streamlit as st
-from lib.helper_streamlit import add_select_model, generate
+
+from lib.helper_streamlit import models
 
 st.set_page_config(page_title="Mini Vision Analyzer", page_icon="🖼️")
-OLLAMA = "http://localhost:11434"
 
 st.title("🖼️ Mini Vision Analyzer")
 
 
-# Versuch, ein Vision-Modell als Default zu wählen
-def get_vison_model(ms):
-    for i, m in enumerate(ms):
-        if any(k in m.lower() for k in ["vision", "llava", "bakllava"]):
-            return i
-
+def _vision_model_index(available_models: list[str]) -> int:
+    for index, name in enumerate(available_models):
+        if any(keyword in name.lower() for keyword in ("vision", "llava", "bakllava")):
+            return index
     return 0
 
 
-# --- Model wählen --------------------------------------------------------------------------------
-try:
-    models = [
-        m["model"]
-        for m in requests.get(f"{OLLAMA}/api/tags", timeout=10).json().get("models", [])
-    ]
-except Exception:
-    models = ["llama3.2", "mistral:7b"]
-
-# --- Sidebar -------------------------------------------------------------------------------------
+available_models = models()
 with st.sidebar:
-    model = st.selectbox("Vision-Modell", models, index=get_vison_model(models))
-
+    selected_model = st.selectbox(
+        "Vision-Modell", available_models, index=_vision_model_index(available_models)
+    )
 
 prompt = st.text_input(
     "Analyse-Prompt", "Beschreibe den Bildinhalt präzise und stichpunktartig."
 )
-img = st.file_uploader("Bild hochladen", type=["png", "jpg", "jpeg", "webp"])
-go = st.button("🔍 Analysieren (Streaming)")
-box = st.empty()
+image_file = st.file_uploader("Bild hochladen", type=["png", "jpg", "jpeg", "webp"])
+trigger = st.button("🔍 Analysieren (Streaming)")
+placeholder = st.empty()
 
-if go and img:
-    st.image(img, caption=img.name)
-    b64 = base64.b64encode(img.getvalue()).decode("utf-8")
-    data = {"model": model, "prompt": prompt, "images": [b64], "stream": True}
+if trigger and image_file:
+    st.image(image_file, caption=image_file.name)
+    encoded = base64.b64encode(image_file.getvalue()).decode("utf-8")
+    payload = {
+        "model": selected_model,
+        "prompt": prompt,
+        "images": [encoded],
+        "stream": True,
+    }
 
-    with requests.post(f"{OLLAMA}/api/generate", json=data, stream=True) as r:
+    with requests.post("http://localhost:11434/api/generate", json=payload, stream=True) as response:
         text = ""
-        for line in r.iter_lines():
+        for line in response.iter_lines():
             if not line:
                 continue
             part = json.loads(line.decode("utf-8"))
             text += part.get("response", "")
-            box.markdown(text)  # Live-Update
+            placeholder.markdown(text)
         st.download_button(
-            "⬇️ Ergebnis speichern", text.encode("utf-8"), f"analysis_{img.name}.txt"
+            "⬇️ Ergebnis speichern", text.encode("utf-8"), f"analysis_{image_file.name}.txt"
         )
