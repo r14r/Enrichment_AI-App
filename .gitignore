@@ -1,3 +1,5 @@
+.DS_Store
+
 .venv/
 .envrc
 .set_env.sh
