@@ -1,0 +1,24 @@
+{
+    "Azure AI Foundry icon in the Activity Bar in VS Code": [24, 395],
+    "'Create new agent' plus icon to the right of 'Agents' node in RESOURCES panel (the same line as 'Agents')": [
+        281, 147
+    ],
+    "'Close (Ctrl+F4)' button besides the 'new-agent.agent.yaml' tab": [836.5, 52.5],
+    "text input 'Name' field in the 'New Agent' editor": [635, 286],
+    "'Model' dropdown list in the 'New Agent' editor": [635, 354],
+    "item 'gpt-4o-mini' in the model dropdown list": [635, 381],
+    "'+ Add tool' button in the 'New Agent' editor": [869, 314],
+    "'This PC' item": [72.5, 260],
+    "address bar on top of the file explorer": [252.5, 50.5],
+    "'Upload and save' blue button in the 'New Agent' editor": [405, 387],
+    "tree node item 'Agents' in RESOURCES panel": [175.5, 147],
+    "tree node item 'vscuse-code' under 'Agents' node": [175.5, 169],
+    "'Edit Agent' button in the 'AGENT PREFERENCES' page": [660.5, 93.5],
+    "'Delete' button in the confirm dialog": [555, 370.5],
+    "'Create Agent on Azure AI Foundry' blue button": [437, 672.5],
+    "'Create new agent' plus icon to the right of 'Agents' node (the same line as 'Agents')": [281, 147],
+    "'OpenAPI 3.0 specified tool' option in the dropdown list": [708.5, 584.5],
+    "text input 'Name'(required) field in 'Tool Details' section": [780.5, 450.5],
+    "'Create tool' blue button in the 'New Agent' editor": [389.5, 672],
+    "'Choose files' button for 'Schema File' field": [650.5, 616]
+}

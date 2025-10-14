@@ -1,0 +1,52 @@
+open visualstudiocode app
+wait 5 seconds
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+type 'ctrl+alt+B' if there is a chat box on right side of vscode
+click 'Azure AI Foundry' icon in Activity Bar in vscode
+wait 5 seconds
+if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to hide bottom panel
+if there is any notification box with a 'Clear Notification (Delete)' button on the right bottom area of the vscode window, click the 'Clear Notification (Delete)' button to close the notification
+type 'ctrl+shift+P'
+type 'Clear Default Project' and press enter
+type 'ctrl+shift+P' to open command palette
+type 'Set Default Project' and press enter
+wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+if the item 'Sign in to Azure' appears, then type text 'Sign in to Azure' with enter and wait until 'Pick a project' selection options finish loading
+if placeholder 'Select a subscription, ...' appears, then type text 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+type text 'a-yukundong-8171' with enter
+wait 5 seconds
+click tree node item 'Models' in the 'RESOURCES' panel
+wait until children under tree node 'Models' are loaded
+assert: there is a model named 'gpt-4o' under 'Models' tree node
+click tree node item 'gpt-4o' under 'Models' node
+assert in 'Deployment Info' section, the value of 'Provisioning state' is 'Succeeded'
+type 'ctrl+shift+P'
+type text 'Close All Editors' with enter
+click tree node item 'Models' in the 'RESOURCES' panel
+click tree node item 'Agents' in the 'RESOURCES' panel
+wait until children under tree node 'Agents' are loaded
+assert: there is an agent named 'agent-test' under 'Agents' tree node
+click tree node item 'agent-test' under 'Agents' node
+assert the agent properties in section 'AGENT PREFERENCES' are displayed
+type 'ctrl+shift+P'
+type text 'Close All Editors' with enter
+click tree node item 'Agents' in the 'RESOURCES' panel
+click tree node item 'Threads' in the 'RESOURCES' panel
+click the first tree node item available under 'Threads' node
+assert: there is a section card 'THREAD DETAILS' that shows properties such as 'Thread ID' and 'Created At'
+type 'ctrl+shift+P'
+type text 'Close All Editors' with enter
+click tree node item 'Threads' in the 'RESOURCES' panel
+click tree node item 'Assets' in the 'RESOURCES' panel
+click tree node item 'Connections' under the 'Assets' node
+click tree node item 'fanaibing' under the 'Connections' node
+wait 5 seconds
+assert there is a 'Connection details' section card and 'Access details' section card displayed in the editor
+click tree node item 'Connections' under the 'Assets' node
+click tree node item 'Vector Stores' under the 'Assets' node
+click tree node item 'AgentVectorStore_8131' under 'Vector Stores' node
+wait 5 seconds
+assert there is a 'Vector store details' section card displayed in the editor
+click tree node item 'Assets' in the 'RESOURCES' panel
+type 'alt+F4'

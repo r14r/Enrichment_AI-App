@@ -1,0 +1,426 @@
+- type: action
+  description: open visualstudiocode app
+  actions:
+  - name: open_app
+    inputs:
+      app_name: visualstudiocode
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: 'type text ''View: Close All Editors'' with enter'
+  actions:
+  - name: type_text
+    inputs:
+      value: 'View: Close All Editors'
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: condition
+  description: type 'ctrl+alt+B' if there is a chat box on right side of vscode
+  branches:
+  - type: if
+    description: if there is a chat box on right side of vscode
+    condition:
+      name: ui_assert
+      inputs:
+        description: chat box is present on the right side of VS Code
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+alt+B
+      output: null
+- type: action
+  description: click 'Azure AI Foundry' icon in Activity Bar in vscode
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: Azure AI Foundry icon in the Activity Bar in VS Code
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: condition
+  description: if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to
+    hide bottom panel
+  branches:
+  - type: if
+    description: if the bottom panel contains 'TERMINAL' tab
+    condition:
+      name: ui_assert
+      inputs:
+        description: bottom panel contains 'TERMINAL' tab
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+J
+      output: null
+- type: condition
+  description: if there is any notification box with a 'Clear Notification (Delete)'
+    button on the right bottom area of the vscode window, click the 'Clear Notification
+    (Delete)' button to close the notification
+  branches:
+  - type: if
+    description: if there is any notification box with a 'Clear Notification (Delete)'
+      button on the right bottom area of the vscode window
+    condition:
+      name: ui_assert
+      inputs:
+        description: notification box with 'Clear Notification (Delete)' button is
+          present on the right bottom area of the VS Code window
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: click
+      inputs:
+        click_type: left
+        location: '''Clear Notification (Delete)'' button in the notification box
+          at the right bottom area of the VS Code window'
+      output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Clear Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Clear Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: type 'ctrl+shift+P' to open command palette
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Set Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Set Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: "''Pick a project'' selection options contains ''Sign in to Azure''' or ''Azure Machine Learning Extension Dev Ad-hoc - Commerical'' appears in the list"
+      condition_evidences:
+      - dom
+    output: null
+- type: condition
+  description: if the item 'Sign in to Azure' appears, then type text 'Sign in to
+    Azure' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if the item 'Sign in to Azure' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: item 'Sign in to Azure' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Sign in to Azure
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: condition
+  description: if placeholder 'Select a subscription, ...' appears, then type text
+    'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if placeholder 'Select a subscription, ...' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: placeholder 'Select a subscription, ...' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Azure Machine Learning Extension Dev Ad-hoc - Commerical
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: action
+  description: type text 'a-yukundong-8171' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: a-yukundong-8171
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: click tree node 'Agents' in the 'RESOURCES' panel
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: tree node 'Agents' in the 'RESOURCES' panel
+    output: null
+
+- type: action
+  description: wait until children of 'Agents' finish loading
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: children of 'Agents' finish loading 
+      condition_evidences:
+      - dom
+    output: null
+    
+- type: condition
+  description: "if there is a tree node item 'vscuse-test' under 'Agents' node, then do the following steps: 1. right click tree node item 'vscuse-test' under 'Agents' node; 2. click 'Delete' button from the dropdown menu that appears; 3. click 'Delete' button in the confirm dialog"
+  branches:
+  - type: if
+    description: if there is a tree node item 'vscuse-test' under 'Agents' node
+    condition:
+      name: ui_assert
+      inputs:
+        description: there is a tree node item 'vscuse-test' under 'Agents' node
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: click
+      inputs:
+        click_type: right
+        location: tree node item 'vscuse-test' under 'Agents' node
+      output: null
+    - name: click
+      inputs:
+        click_type: left
+        location: "'Delete' button in dropdown menu after right clicking 'vscuse-test' node"
+      output: null
+    - name: click
+      inputs:
+        click_type: left
+        location: "'Delete' button in confirm dialog"
+      output: null
+
+- type: action
+  description: click 'Create new agent' plus icon to the right of "Agents" node (the
+    same line as "Agents")
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: '''Create new agent'' plus icon to the right of ''Agents'' node in RESOURCES panel'
+    output: null
+- type: action
+  description: wait until 'AGENT PREFERENCES' text appears in the page
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: "'AGENT PREFERENCES' text appears in the page"
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: in the 'New Agent' editor, click the text input 'Name' field
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: text input 'Name' field in 'New Agent' editor
+    output: null
+- type: action
+  description: type 'ctrl+A'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+A
+    output: null
+- type: action
+  description: type "vscuse-test"
+  actions:
+  - name: type_text
+    inputs:
+      value: vscuse-test
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: false
+    output: null
+- type: action
+  description: in the 'New Agent' editor, click the "Model" dropdown list
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Model' dropdown list in 'New Agent' editor"
+    output: null
+- type: action
+  description: wait until model dropdown list finish loading and text 'Browse other models' appears
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: model dropdown list finish loading and text 'Browse other models' appears
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: select the first model available in the dropdown list
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: the first option item in the 'Model' dropdown list in the 'New Agent' editor
+    output: null
+- type: action
+  description: scroll down one page
+  actions:
+  - name: scroll_down
+    inputs:
+      location_description: ''
+      location_coordinate: []
+      location_tag: ''
+      pages: 1
+    output: null
+- type: action
+  description: click the 'Create Agent on Azure AI Foundry' blue button
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Create Agent on Azure AI Foundry' blue button in 'New Agent' editor"
+    output: null
+- type: action
+  description: wait until 'Update Agent on Azure AI Foundry' blue button appears
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: "'Update Agent on Azure AI Foundry' blue button appears"
+      condition_evidences:
+      - dom
+    output: null
+- type: action
+  description: wait 10 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 10
+    output: null
+- type: action
+  description: assert there is a node named 'vscuse-test' under 'Agents' node
+  actions:
+  - name: ui_assert
+    inputs:
+      description: node named 'vscuse-test' exists under 'Agents' node
+      evidences:
+      - dom
+      - ocr
+    output: null
+- type: action
+  description: right click tree node item 'vscuse-test' under 'Agents' node
+  actions:
+  - name: click
+    inputs:
+      click_type: right
+      location: tree node item 'vscuse-test' under 'Agents' node
+    output: null
+- type: action
+  description: click 'Delete' button from the dropdown menu that appears
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Delete' button in dropdown menu after right clicking 'vscuse-test' node"
+    output: null
+- type: action
+  description: click 'Delete' button in confirm dialog
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Delete' button in confirm dialog"
+    output: null
+- type: action
+  description: type 'alt+F4'
+  actions:
+  - name: press_key
+    inputs:
+      key: alt+F4
+    output: null

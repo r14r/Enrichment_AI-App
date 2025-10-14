@@ -1,0 +1,37 @@
+open visualstudiocode app
+wait 5 seconds
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+type 'ctrl+alt+B' if there is a chat box on right side of vscode
+click 'Azure AI Foundry' icon in Activity Bar in vscode
+wait 5 seconds
+if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to hide bottom panel
+if there is any notification box with a 'Clear Notification (Delete)' button on the right bottom area of the vscode window, click the 'Clear Notification (Delete)' button to close the notification
+type 'ctrl+shift+P'
+type 'Clear Default Project' and press enter
+type 'ctrl+shift+P' to open command palette
+type 'Set Default Project' and press enter
+wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+if the item 'Sign in to Azure' appears, then type text 'Sign in to Azure' with enter and wait until 'Pick a project' selection options finish loading
+if placeholder 'Select a subscription, ...' appears, then type text 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+type text 'a-yukundong-8171' and press enter
+click tree node item 'Agents' in the 'RESOURCES' panel
+wait until children of 'Agents' finish loading
+if there is a tree node item 'vscuse-test' under 'Agents' node, then do the following steps: 1. right click tree node item 'vscuse-test' under 'Agents' node; 2. click 'Delete' button from the dropdown menu that appears; 3. click 'Delete' button in the confirm dialog
+click 'Create new agent' plus icon to the right of "Agents" node (the same line as "Agents")
+wait until 'AGENT PREFERENCES' text appears in the page
+in the 'New Agent' editor, click the text input 'Name' field
+type 'ctrl+A'
+type "vscuse-test"
+in the 'New Agent' editor, click the "Model" dropdown list
+wait until model dropdown list finish loading and text 'Browse other models' appears
+select the first model available in the dropdown list
+scroll down one page
+click the 'Create Agent on Azure AI Foundry' blue button
+wait until 'Update Agent on Azure AI Foundry' blue button appears
+wait 10 seconds
+assert there is a node named 'vscuse-test' under 'Agents' node
+right click tree node item 'vscuse-test' under 'Agents' node
+click 'Delete' button from the dropdown menu that appears
+click 'Delete' button in the confirm dialog
+type 'alt+F4'

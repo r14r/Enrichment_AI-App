@@ -1,0 +1,27 @@
+{
+    "Azure AI Foundry icon in the Activity Bar in VS Code": [24, 395],
+    "tree node item 'Agents' in the 'RESOURCES' panel": [128, 146],
+    "'Create new agent' plus (+) icon to the right of 'Agents' node in the RESOURCES panel (the same line as 'Agents')": [
+        281, 147
+    ],
+    "text input 'Name' field in the 'New Agent' editor": [564, 286],
+    "'Model' dropdown list in the 'New Agent' editor": [564, 354],
+    "item 'gpt-4o-mini' in the model dropdown list": [515, 381],
+    "'Close (Ctrl+F4)' button besides the 'new-agent.agent.yaml'": [836.5, 52.5],
+    "'+ Add tool' button": [869, 314],
+    "second option 'Grounding with Bing Search' in the dropdown list": [713.5, 432.5],
+    "'Create a new connection' blue text in the 'New Agent' editor": [668.5, 407],
+    "'Create new Bing Grounding resource' button": [788, 497],
+    "'Name' field in the 'New Agent' editor": [780.5, 571.5],
+    "'Pricing tier' dropdown list": [780.5, 655.5],
+    "first option in the 'Pricing tier' dropdown list": [780.5, 631.5],
+    "'I confirm I have read and understood the notice above.' checkbox": [536, 613.5],
+    "'Create and connection' blue button": [413.5, 673],
+    "tree node item 'Agents' under RESOURCES panel": [175.5, 147],
+    "tree node item 'vscuse-bing' under 'Agents' node": [175.5, 169],
+    "'Edit Agent' button": [660.5, 93.5],
+    "'Open Playground' button from the dropdown menu that appears": [269.5, 214],
+    "chat input box at the middle bottom area of the 'Playground' page": [544, 606.5],
+    "'Delete' button in the confirm dialog": [555, 370.5],
+    "'Create Agent on Azure AI Foundry' blue button": [437, 672.5]
+}

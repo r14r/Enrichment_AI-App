@@ -1,0 +1,309 @@
+- type: action
+  description: open visualstudiocode app
+  actions:
+  - name: open_app
+    inputs:
+      app_name: visualstudiocode
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: 'type text ''View: Close All Editors'' with enter'
+  actions:
+  - name: type_text
+    inputs:
+      value: 'View: Close All Editors'
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: condition
+  description: type 'ctrl+alt+B' if there is a chat box on right side of vscode
+  branches:
+  - type: if
+    description: if there is a chat box on right side of vscode
+    condition:
+      name: ui_assert
+      inputs:
+        description: chat box is present on the right side of VS Code
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+alt+B
+      output: null
+- type: action
+  description: click 'Azure AI Foundry' icon in Activity Bar in vscode
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: Azure AI Foundry icon in the Activity Bar in VS Code
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: condition
+  description: if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to
+    hide bottom panel
+  branches:
+  - type: if
+    description: if the bottom panel contains 'TERMINAL' tab
+    condition:
+      name: ui_assert
+      inputs:
+        description: bottom panel contains 'TERMINAL' tab
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+J
+      output: null
+- type: condition
+  description: if there is any notification box with a 'Clear Notification (Delete)'
+    button on the right bottom area of the vscode window, click the 'Clear Notification
+    (Delete)' button to close the notification
+  branches:
+  - type: if
+    description: if there is any notification box with a 'Clear Notification (Delete)'
+      button on the right bottom area of the vscode window
+    condition:
+      name: ui_assert
+      inputs:
+        description: notification box with 'Clear Notification (Delete)' button is
+          present on the right bottom area of the VS Code window
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: click
+      inputs:
+        click_type: left
+        location: '''Clear Notification (Delete)'' button in the notification box
+          at the right bottom area of the VS Code window'
+      output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Clear Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Clear Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: type 'ctrl+shift+P' to open command palette
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Set Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Set Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: "''Pick a project'' selection options contains ''Sign in to Azure''' or ''Azure Machine Learning Extension Dev Ad-hoc - Commerical'' appears in the list"
+      condition_evidences:
+      - dom
+    output: null
+- type: condition
+  description: if the item 'Sign in to Azure' appears, then type text 'Sign in to
+    Azure' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if the item 'Sign in to Azure' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: item 'Sign in to Azure' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Sign in to Azure
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: condition
+  description: if placeholder 'Select a subscription, ...' appears, then type text
+    'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if placeholder 'Select a subscription, ...' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: placeholder 'Select a subscription, ...' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Azure Machine Learning Extension Dev Ad-hoc - Commerical
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: action
+  description: type text 'huajieproj0704' with enter
+  actions:
+  - name: type_text
+    inputs:
+      value: huajieproj0704
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: click 'Agent Playground' in TOOLS panel
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Agent Playground' item in the TOOLS panel"
+    output: null
+- type: action
+  description: wait until item 'agent-test' appears in the option list
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: Item 'agent-test' appears in the option list
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: type 'agent-test' and enter
+  actions:
+  - name: type_text
+    inputs:
+      value: agent-test
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until 'Welcome to the playground!' shown in the page
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: '''Welcome to the playground!'' is shown in the page'
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: type 'hello (don't reply the smile icon)' in the chat input box at
+    the middle bottom area of the 'Playground' page with enter
+  actions:
+  - name: type_text
+    inputs:
+      value: hello (don't reply the smile icon)
+      location: chat input box at the middle bottom area of the 'Playground' page
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until 'Generating response' disappears in the chat page
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 120
+      condition_description: '''Generating response'' disappears in the chat page'
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: assert user send a message 'hello (don't reply the smile icon)' on
+    the right side of the 'Playground' page and agent replies a message to user on
+    the left side of the 'Playground' page
+  actions:
+  - name: ui_assert
+    inputs:
+      description: User sent message 'hello (don't reply the smile icon)' on the right
+        side of the 'Playground' page and agent replied a message to user on the left
+        side of the 'Playground' page
+      evidences:
+      - ocr
+    output: null
+- type: action
+  description: type 'alt+F4'
+  actions:
+  - name: press_key
+    inputs:
+      key: alt+F4
+    output: null

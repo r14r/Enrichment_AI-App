@@ -1,0 +1,25 @@
+2025-10-14 09:41:54.067 [info] Using the only workspaceFolder found:  /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:41:54.084 [info] Resolving launch configuration with substituted variables
+2025-10-14 09:41:54.085 [info] Using the only workspaceFolder found:  /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:41:54.108 [info] DAP Server launched with command: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.debugpy-2025.14.1-darwin-x64/bundled/libs/debugpy/adapter
+2025-10-14 09:41:54.699 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:41:54.739 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:41:54.740 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:41:58.398 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:00.750 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:00.753 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:23.610 [info] Using the only workspaceFolder found:  /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:42:23.613 [info] Resolving launch configuration with substituted variables
+2025-10-14 09:42:23.613 [info] Using the only workspaceFolder found:  /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:42:23.623 [info] DAP Server launched with command: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.debugpy-2025.14.1-darwin-x64/bundled/libs/debugpy/adapter
+2025-10-14 09:42:23.880 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:23.882 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:23.883 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 09:42:24.611 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:47.379 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:47.388 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:47.683 [info] DAP Server launched with command: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.debugpy-2025.14.1-darwin-x64/bundled/libs/debugpy/adapter
+2025-10-14 10:32:48.162 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:48.164 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:48.165 [info] Received 'debugpySockets' event from debugpy.
+2025-10-14 10:32:49.038 [info] Received 'debugpySockets' event from debugpy.

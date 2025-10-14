@@ -1,0 +1,25 @@
+open visualstudiocode app
+wait 5 seconds
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+type 'ctrl+alt+B' if there is a chat box on right side of vscode
+click 'Azure AI Foundry' icon in Activity Bar in vscode
+wait 5 seconds
+if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to hide bottom panel
+if there is any notification box with a 'Clear Notification (Delete)' button on the right bottom area of the vscode window, click the 'Clear Notification (Delete)' button to close the notification
+type 'ctrl+shift+P'
+type 'Clear Default Project' and press enter
+type 'ctrl+shift+P' to open command palette
+type 'Set Default Project' and press enter
+wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+if the item 'Sign in to Azure' appears, then type text 'Sign in to Azure' with enter and wait until 'Pick a project' selection options finish loading
+if placeholder 'Select a subscription, ...' appears, then type text 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+type text 'huajieproj0704' with enter
+click "Agent Playground" in TOOLS panel
+wait until item 'agent-test' appears in the option list
+type 'agent-test' and enter
+wait until 'Welcome to the playground!' shown in the page
+type 'hello (don't reply the smile icon)' in the chat input box at the middle bottom area of the 'Playground' page with enter
+wait until 'Generating response' disappears in the chat page
+assert user send a message 'hello (don't reply the smile icon)' on the right side of the 'Playground' page and agent replies a message to user on the left side of the 'Playground' page
+type 'alt+F4'

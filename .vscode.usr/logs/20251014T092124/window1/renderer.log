@@ -1,0 +1,41 @@
+2025-10-14 09:21:26.473 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-14 09:21:27.137 [info] Started local extension host with pid 72922.
+2025-10-14 09:21:28.241 [info] MCP Registry configured: https://api.mcp.github.com
+2025-10-14 09:21:30.306 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-14 09:21:30.658 [info] [perf] Render performance baseline is 25ms
+2025-10-14 09:22:13.777 [error] Cancelled: Canceled: Canceled
+    at BJe.O (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:36572)
+    at async BJe.N (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:35301)
+    at async BJe.D (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:24301)
+    at async vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23772
+    at async Promise.all (index 15)
+    at async BJe.C (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23723)
+    at async BJe.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:22380)
+    at async Hht.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2485:15150)
+    at async kqs.Rc (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:17026)
+    at async kqs.$c (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:19670)
+2025-10-14 09:23:02.152 [error] [Extension Host] (node:72922) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `Code - Insiders Helper (Plugin) --trace-warnings ...` to show where the warning was created)
+2025-10-14 09:23:05.452 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-14 09:23:06.516 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:28:14.436 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:33:17.616 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:38:20.702 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:43:23.997 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:48:27.263 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:53:30.800 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 09:58:34.268 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:03:38.640 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:08:42.677 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:13:45.909 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:18:49.069 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:23:52.003 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:28:55.252 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:32:47.380 [error] Server[pid=75552] disconnected unexpectedly: CodeExpectedError: Server[pid=75552] disconnected unexpectedly
+    at Cpt.Q (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2767:15454)
+    at vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2767:15032
+    at async Spt.cb (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2767:30619)
+2025-10-14 10:33:58.663 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:39:02.060 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:40:34.539 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 10:40:37.918 [error] An unknown error occurred. Please consult the log for more details.

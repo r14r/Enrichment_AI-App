@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "executable": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python",
+    "prefix": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python",
+    "version": "3.11.13.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python",
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python3",
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python3.11"
+    ]
+  },
+  "symlinks": [
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python",
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570630764
+      },
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570538864
+      }
+    ],
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python3",
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570630764
+      },
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570538864
+      }
+    ],
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python3.11",
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570630764
+      },
+      {
+        "secs_since_epoch": 1750829045,
+        "nanos_since_epoch": 570538864
+      }
+    ]
+  ]
+}

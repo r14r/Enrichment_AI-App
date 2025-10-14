@@ -1,0 +1,771 @@
+2025-10-14 09:23:05.256 [info] 
+=== Python Envs Configuration Levels ===
+2025-10-14 09:23:05.256 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2025-10-14 09:23:05.256 [info] [pet] Starting Python Locator /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.vscode-python-envs-1.10.0-darwin-x64/python-env-tools/bin/pet server
+2025-10-14 09:23:05.256 [info] Found pipenv in PATH: /usr/local/bin/pipenv
+2025-10-14 09:23:06.004 [info] Refreshing pipenv environments
+2025-10-14 09:23:06.004 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:06.005 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App"],"environmentDirectories":[],"poetryExecutable":"poetry","cacheDirectory":"/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.usr/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2025-10-14 09:23:06.301 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:06.396 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:06.517 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:06.904 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:06.964 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:06.964 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:06.965 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:06.967 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:06.974 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:06.980 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:06.980 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:06.999 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:06.999 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:07.291 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:07.292 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:07.292 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:07.292 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:07.292 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:07.292 [info] [pet] Locator Conda took 894.778858ms
+2025-10-14 09:23:07.292 [info] [pet] Locator Homebrew took 678.445768ms
+2025-10-14 09:23:07.292 [info] [pet] Locator MacCommandLineTools took 932.302887ms
+2025-10-14 09:23:07.292 [info] [pet] Locator MacPythonOrg took 596.11001ms
+2025-10-14 09:23:07.292 [info] [pet] Locator MacXCode took 123.862µs
+2025-10-14 09:23:07.292 [info] [pet] Locator PipEnv took 21.574µs
+2025-10-14 09:23:07.293 [info] [pet] Locator Pixi took 231.588µs
+2025-10-14 09:23:07.293 [info] [pet] Locator Poetry took 11.062223ms
+2025-10-14 09:23:07.293 [info] [pet] Locator PyEnv took 4.917215ms
+2025-10-14 09:23:07.293 [info] [pet] Locator Venv took 46.08µs
+2025-10-14 09:23:07.293 [info] [pet] Locator VirtualEnv took 14.659µs
+2025-10-14 09:23:07.293 [info] [pet] Locator VirtualEnvWrapper took 12.43µs
+2025-10-14 09:23:07.293 [info] [pet] Locator GlobalVirtualEnvs took 56.364882ms
+2025-10-14 09:23:07.293 [info] [pet] Locator Locators took 934.294772ms
+2025-10-14 09:23:07.293 [info] [pet] Locator Path took 935.593785ms
+2025-10-14 09:23:07.293 [info] [pet] Locator Workspaces took 3.764957ms
+2025-10-14 09:23:07.294 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":935,"breakdown":{"GlobalVirtualEnvs":56,"Locators":934,"Path":935,"Workspaces":3},"locators":{"Conda":894,"Homebrew":678,"MacCommandLineTools":932,"MacPythonOrg":596,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":11,"PyEnv":4,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:23:07.294 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:07.294 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:07.294 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:07.295 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:07.297 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:07.453 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:07.455 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:07.455 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:07.455 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:07.455 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:07.456 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:07.456 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:07.456 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:07.456 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:07.456 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:07.457 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:07.458 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:07.458 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:07.459 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:07.459 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:07.488 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:07.489 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:07.489 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:07.489 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:07.489 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:07.569 [info] [pet] Locator Conda took 61.544199ms
+2025-10-14 09:23:07.569 [info] [pet] Locator Homebrew took 110.947469ms
+2025-10-14 09:23:07.570 [info] [pet] Locator MacCommandLineTools took 19.407834ms
+2025-10-14 09:23:07.570 [info] [pet] Locator MacPythonOrg took 42.578631ms
+2025-10-14 09:23:07.570 [info] [pet] Locator MacXCode took 100.561µs
+2025-10-14 09:23:07.570 [info] [pet] Locator PipEnv took 15.663µs
+2025-10-14 09:23:07.570 [info] [pet] Locator Pixi took 16.407µs
+2025-10-14 09:23:07.570 [info] [pet] Locator Poetry took 611.615µs
+2025-10-14 09:23:07.570 [info] [pet] Locator PyEnv took 286.366µs
+2025-10-14 09:23:07.570 [info] [pet] Locator Venv took 46.357µs
+2025-10-14 09:23:07.570 [info] [pet] Locator VirtualEnv took 195.761µs
+2025-10-14 09:23:07.570 [info] [pet] Locator VirtualEnvWrapper took 13.065µs
+2025-10-14 09:23:07.570 [info] [pet] Locator GlobalVirtualEnvs took 6.997125ms
+2025-10-14 09:23:07.570 [info] [pet] Locator Locators took 111.207931ms
+2025-10-14 09:23:07.570 [info] [pet] Locator Path took 268.468147ms
+2025-10-14 09:23:07.570 [info] [pet] Locator Workspaces took 29.866592ms
+2025-10-14 09:23:07.571 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:07.571 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":268,"breakdown":{"GlobalVirtualEnvs":6,"Locators":111,"Path":268,"Workspaces":29},"locators":{"Conda":61,"Homebrew":110,"MacCommandLineTools":19,"MacPythonOrg":42,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:23:07.576 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:23:07.593 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:23:07.594 [info] Python API: Changed environment from undefined to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:23:07.594 [info] Internal: Changed environment from undefined to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:23:07.735 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:07.735 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:07.739 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:07.742 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:07.744 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:07.748 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:07.749 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:07.749 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:07.749 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:07.750 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:07.750 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:07.776 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:07.783 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:07.820 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:07.820 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:07.822 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:07.825 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:07.848 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:07.849 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:07.852 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:07.946 [info] [pet] Locator Conda took 167.856533ms
+2025-10-14 09:23:07.946 [info] [pet] Locator Homebrew took 255.450682ms
+2025-10-14 09:23:07.946 [info] [pet] Locator MacCommandLineTools took 35.500511ms
+2025-10-14 09:23:07.946 [info] [pet] Locator MacPythonOrg took 121.42108ms
+2025-10-14 09:23:07.946 [info] [pet] Locator MacXCode took 2.981237ms
+2025-10-14 09:23:07.946 [info] [pet] Locator PipEnv took 227.898µs
+2025-10-14 09:23:07.946 [info] [pet] Locator Pixi took 34.36µs
+2025-10-14 09:23:07.946 [info] [pet] Locator Poetry took 5.97044ms
+2025-10-14 09:23:07.946 [info] [pet] Locator PyEnv took 1.64145ms
+2025-10-14 09:23:07.946 [info] [pet] Locator Venv took 3.677307ms
+2025-10-14 09:23:07.947 [info] [pet] Locator VirtualEnv took 3.809898ms
+2025-10-14 09:23:07.947 [info] [pet] Locator VirtualEnvWrapper took 3.696203ms
+2025-10-14 09:23:07.947 [info] [pet] Locator GlobalVirtualEnvs took 19.882835ms
+2025-10-14 09:23:07.947 [info] [pet] Locator Locators took 255.863031ms
+2025-10-14 09:23:07.947 [info] [pet] Locator Path took 373.528153ms
+2025-10-14 09:23:07.947 [info] [pet] Locator Workspaces took 24.061603ms
+2025-10-14 09:23:07.947 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:07.947 [info] Found 0 pipenv environments
+2025-10-14 09:23:07.952 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":373,"breakdown":{"GlobalVirtualEnvs":19,"Locators":255,"Path":373,"Workspaces":24},"locators":{"Conda":167,"Homebrew":255,"MacCommandLineTools":35,"MacPythonOrg":121,"MacXCode":2,"PipEnv":0,"Pixi":0,"Poetry":5,"PyEnv":1,"Venv":3,"VirtualEnv":3,"VirtualEnvWrapper":3}}}}
+2025-10-14 09:23:08.059 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:08.074 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:08.074 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:08.082 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:08.082 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:08.083 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:08.083 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:08.084 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:08.084 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:08.085 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:08.085 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:08.093 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:08.127 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:08.132 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:08.142 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:08.158 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:08.159 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:08.174 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:08.194 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:08.197 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:08.264 [info] [pet] Locator Conda took 91.692574ms
+2025-10-14 09:23:08.264 [info] [pet] Locator Homebrew took 208.260491ms
+2025-10-14 09:23:08.265 [info] [pet] Locator MacCommandLineTools took 23.217866ms
+2025-10-14 09:23:08.265 [info] [pet] Locator MacPythonOrg took 58.086366ms
+2025-10-14 09:23:08.265 [info] [pet] Locator MacXCode took 18.49µs
+2025-10-14 09:23:08.265 [info] [pet] Locator PipEnv took 35.344µs
+2025-10-14 09:23:08.265 [info] [pet] Locator Pixi took 30.548µs
+2025-10-14 09:23:08.265 [info] [pet] Locator Poetry took 623.391µs
+2025-10-14 09:23:08.265 [info] [pet] Locator PyEnv took 204.778µs
+2025-10-14 09:23:08.265 [info] [pet] Locator Venv took 15.761µs
+2025-10-14 09:23:08.265 [info] [pet] Locator VirtualEnv took 3.372655ms
+2025-10-14 09:23:08.265 [info] [pet] Locator VirtualEnvWrapper took 3.413775ms
+2025-10-14 09:23:08.265 [info] [pet] Locator GlobalVirtualEnvs took 9.871071ms
+2025-10-14 09:23:08.265 [info] [pet] Locator Locators took 212.668832ms
+2025-10-14 09:23:08.265 [info] [pet] Locator Path took 311.753274ms
+2025-10-14 09:23:08.265 [info] [pet] Locator Workspaces took 30.012087ms
+2025-10-14 09:23:08.266 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:08.266 [info] Pyenv not found, turning off pyenv features.
+2025-10-14 09:23:08.271 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":311,"breakdown":{"GlobalVirtualEnvs":9,"Locators":212,"Path":311,"Workspaces":30},"locators":{"Conda":91,"Homebrew":208,"MacCommandLineTools":23,"MacPythonOrg":58,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Venv":0,"VirtualEnv":3,"VirtualEnvWrapper":3}}}}
+2025-10-14 09:23:08.322 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:08.323 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:08.323 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:08.323 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:08.323 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:08.324 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:08.324 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:08.324 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:08.324 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:08.329 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:08.342 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:08.376 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:08.383 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:08.386 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:08.386 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:08.389 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:08.582 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:08.582 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:08.582 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:08.582 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:08.583 [info] [pet] Locator Conda took 57.247ms
+2025-10-14 09:23:08.583 [info] [pet] Locator Homebrew took 116.389196ms
+2025-10-14 09:23:08.583 [info] [pet] Locator MacCommandLineTools took 14.537852ms
+2025-10-14 09:23:08.584 [info] [pet] Locator MacPythonOrg took 33.574866ms
+2025-10-14 09:23:08.584 [info] [pet] Locator MacXCode took 923.449µs
+2025-10-14 09:23:08.584 [info] [pet] Locator PipEnv took 476.484µs
+2025-10-14 09:23:08.584 [info] [pet] Locator Pixi took 1.672775ms
+2025-10-14 09:23:08.584 [info] [pet] Locator Poetry took 1.05019ms
+2025-10-14 09:23:08.584 [info] [pet] Locator PyEnv took 726.941µs
+2025-10-14 09:23:08.584 [info] [pet] Locator Venv took 57.432µs
+2025-10-14 09:23:08.584 [info] [pet] Locator VirtualEnv took 69.198µs
+2025-10-14 09:23:08.584 [info] [pet] Locator VirtualEnvWrapper took 555.125µs
+2025-10-14 09:23:08.584 [info] [pet] Locator GlobalVirtualEnvs took 11.588915ms
+2025-10-14 09:23:08.584 [info] [pet] Locator Locators took 116.852414ms
+2025-10-14 09:23:08.584 [info] [pet] Locator Path took 269.849139ms
+2025-10-14 09:23:08.584 [info] [pet] Locator Workspaces took 15.671139ms
+2025-10-14 09:23:08.585 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:08.585 [info] Using conda from native finder: /opt/miniconda3/bin/conda
+2025-10-14 09:23:08.585 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":269,"breakdown":{"GlobalVirtualEnvs":11,"Locators":116,"Path":269,"Workspaces":15},"locators":{"Conda":57,"Homebrew":116,"MacCommandLineTools":14,"MacPythonOrg":33,"MacXCode":0,"PipEnv":0,"Pixi":1,"Poetry":1,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:23:08.590 [info] Found global conda sourcing script at: /opt/miniconda3/bin/activate
+2025-10-14 09:23:08.597 [info] Conda hook found at: /opt/miniconda3/shell/condabin/conda-hook.ps1
+2025-10-14 09:23:08.606 [info] conda.sh found in /opt/miniconda3/etc/profile.d/conda.sh
+2025-10-14 09:23:08.615 [info] Conda Sourcing Status:
+├─ Conda Path: /opt/miniconda3/bin/conda
+├─ Conda Folder: /opt/miniconda3
+├─ Active on Launch: false
+├─ Global Sourcing Script: /opt/miniconda3/bin/activate
+└─ Shell-specific Sourcing Scripts:
+   ├─ /opt/miniconda3/shell/condabin/conda-hook.ps1
+   ├─ /opt/miniconda3/etc/profile.d/conda.sh
+2025-10-14 09:23:08.734 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:08.734 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:23:08.736 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:23:08.860 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:23:08.860 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:23:08.860 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:23:08.860 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:23:08.860 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:23:08.860 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:23:08.861 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:23:08.861 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:23:08.870 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:23:08.871 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:23:08.873 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:23:08.874 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:23:08.878 [info] [pet] Locator Conda took 71.711386ms
+2025-10-14 09:23:08.878 [info] [pet] Locator Homebrew took 180.567401ms
+2025-10-14 09:23:08.878 [info] [pet] Locator MacCommandLineTools took 28.265365ms
+2025-10-14 09:23:08.879 [info] [pet] Locator MacPythonOrg took 58.758065ms
+2025-10-14 09:23:08.880 [info] [pet] Locator MacXCode took 17.072µs
+2025-10-14 09:23:08.883 [info] [pet] Locator PipEnv took 13.786µs
+2025-10-14 09:23:08.883 [info] [pet] Locator Pixi took 19.17µs
+2025-10-14 09:23:08.886 [info] [pet] Locator Poetry took 671.837µs
+2025-10-14 09:23:08.886 [info] [pet] Locator PyEnv took 3.738741ms
+2025-10-14 09:23:08.886 [info] [pet] Locator Venv took 14.587µs
+2025-10-14 09:23:08.886 [info] [pet] Locator VirtualEnv took 1.635977ms
+2025-10-14 09:23:08.886 [info] [pet] Locator VirtualEnvWrapper took 13.566µs
+2025-10-14 09:23:08.886 [info] [pet] Locator GlobalVirtualEnvs took 37.727155ms
+2025-10-14 09:23:08.886 [info] [pet] Locator Locators took 182.837992ms
+2025-10-14 09:23:08.886 [info] [pet] Locator Path took 285.694135ms
+2025-10-14 09:23:08.886 [info] [pet] Locator Workspaces took 46.107127ms
+2025-10-14 09:23:08.886 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":285,"breakdown":{"GlobalVirtualEnvs":37,"Locators":182,"Path":285,"Workspaces":46},"locators":{"Conda":71,"Homebrew":180,"MacCommandLineTools":28,"MacPythonOrg":58,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":3,"Venv":0,"VirtualEnv":1,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:23:08.889 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:23:08.894 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:23:08.894 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:23:08.897 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:23:08.897 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:23:08.897 [info] Poetry not found, turning off poetry features.
+2025-10-14 09:23:08.898 [info] [resolveDefaultInterpreter] User configured defaultInterpreterPath: ${workspaceFolder}/.venv/python/bin/python and defaultEnvManager: undefined
+2025-10-14 09:23:08.898 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:23:08.900 [error] [pet] Failed to execute Python to resolve info "${workspaceFolder}/.venv/python/bin/python": No such file or directory (os error 2)
+2025-10-14 09:23:08.900 [warning] [pet] Unknown Python Env "${workspaceFolder}/.venv/python/bin/python"
+2025-10-14 09:23:08.900 [error] [pet] Failed to resolve env "${workspaceFolder}/.venv/python/bin/python"
+2025-10-14 09:23:08.901 [error] [resolveDefaultInterpreter] Error resolving default interpreter: Error: Failed to resolve env "${workspaceFolder}/.venv/python/bin/python"
+2025-10-14 09:41:39.305 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:41:39.350 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:41:39.357 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:41:39.363 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:41:39.378 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:41:39.390 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:41:39.390 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:41:39.395 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:41:39.395 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:41:39.405 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:41:39.408 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:41:39.442 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:41:39.447 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:41:39.451 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:41:39.459 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:41:39.460 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:41:39.462 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:41:39.480 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:41:39.494 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:41:39.495 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:41:39.495 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:41:39.569 [info] [pet] Locator Conda took 72.516179ms
+2025-10-14 09:41:39.571 [info] [pet] Locator Homebrew took 127.84076ms
+2025-10-14 09:41:39.571 [info] [pet] Locator MacCommandLineTools took 33.020619ms
+2025-10-14 09:41:39.571 [info] [pet] Locator MacPythonOrg took 47.378168ms
+2025-10-14 09:41:39.571 [info] [pet] Locator MacXCode took 36.891µs
+2025-10-14 09:41:39.571 [info] [pet] Locator PipEnv took 16.386µs
+2025-10-14 09:41:39.571 [info] [pet] Locator Pixi took 25.926µs
+2025-10-14 09:41:39.571 [info] [pet] Locator Poetry took 5.28458ms
+2025-10-14 09:41:39.571 [info] [pet] Locator PyEnv took 4.24068ms
+2025-10-14 09:41:39.571 [info] [pet] Locator Venv took 18.909µs
+2025-10-14 09:41:39.571 [info] [pet] Locator VirtualEnv took 22.114µs
+2025-10-14 09:41:39.571 [info] [pet] Locator VirtualEnvWrapper took 35.486µs
+2025-10-14 09:41:39.571 [info] [pet] Locator GlobalVirtualEnvs took 25.322731ms
+2025-10-14 09:41:39.571 [info] [pet] Locator Locators took 138.264118ms
+2025-10-14 09:41:39.572 [info] [pet] Locator Path took 244.863455ms
+2025-10-14 09:41:39.572 [info] [pet] Locator Workspaces took 8.632044ms
+2025-10-14 09:41:39.573 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":245,"breakdown":{"GlobalVirtualEnvs":25,"Locators":138,"Path":244,"Workspaces":8},"locators":{"Conda":72,"Homebrew":127,"MacCommandLineTools":33,"MacPythonOrg":47,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":5,"PyEnv":4,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:41:39.574 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:41:39.601 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:41:39.601 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:41:55.435 [info] Terminal is activated: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:41:56.439 [info] Python API: Changed environment from undefined to Python 3.13.7 (homebrew) for: global
+2025-10-14 09:41:56.439 [info] Internal: Changed environment from undefined to Python 3.13.7 (homebrew) for: global
+2025-10-14 09:48:23.681 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:48:23.788 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:48:23.790 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:48:23.794 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:48:23.794 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:48:23.795 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:48:23.795 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:48:23.795 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:48:23.795 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:48:23.795 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:48:23.795 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:48:23.796 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:48:23.809 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:48:23.837 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:48:23.844 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:48:23.845 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:48:23.863 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:48:23.866 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:48:23.879 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:48:23.896 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:48:23.898 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:48:23.949 [info] [pet] Locator Conda took 75.176087ms
+2025-10-14 09:48:23.949 [info] [pet] Locator Homebrew took 183.676544ms
+2025-10-14 09:48:23.949 [info] [pet] Locator MacCommandLineTools took 27.386521ms
+2025-10-14 09:48:23.949 [info] [pet] Locator MacPythonOrg took 53.918619ms
+2025-10-14 09:48:23.949 [info] [pet] Locator MacXCode took 15.449µs
+2025-10-14 09:48:23.949 [info] [pet] Locator PipEnv took 26.159µs
+2025-10-14 09:48:23.949 [info] [pet] Locator Pixi took 2.411091ms
+2025-10-14 09:48:23.949 [info] [pet] Locator Poetry took 3.124575ms
+2025-10-14 09:48:23.949 [info] [pet] Locator PyEnv took 2.22891ms
+2025-10-14 09:48:23.949 [info] [pet] Locator Venv took 12.06µs
+2025-10-14 09:48:23.949 [info] [pet] Locator VirtualEnv took 1.829195ms
+2025-10-14 09:48:23.949 [info] [pet] Locator VirtualEnvWrapper took 57.742µs
+2025-10-14 09:48:23.950 [info] [pet] Locator GlobalVirtualEnvs took 16.016577ms
+2025-10-14 09:48:23.950 [info] [pet] Locator Locators took 184.465094ms
+2025-10-14 09:48:23.950 [info] [pet] Locator Path took 266.397424ms
+2025-10-14 09:48:23.950 [info] [pet] Locator Workspaces took 24.883711ms
+2025-10-14 09:48:23.950 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":266,"breakdown":{"GlobalVirtualEnvs":16,"Locators":184,"Path":266,"Workspaces":24},"locators":{"Conda":75,"Homebrew":183,"MacCommandLineTools":27,"MacPythonOrg":53,"MacXCode":0,"PipEnv":0,"Pixi":2,"Poetry":3,"PyEnv":2,"Venv":0,"VirtualEnv":1,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:48:23.950 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:48:23.952 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:48:23.952 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:48:31.723 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:48:31.770 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:48:31.777 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:48:31.780 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:48:31.783 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:48:31.786 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:48:31.790 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:48:31.790 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:48:31.791 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:48:31.791 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:48:31.791 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:48:31.792 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:48:31.825 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:48:31.831 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:48:31.852 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:48:31.854 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:48:31.878 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:48:31.879 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:48:31.886 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:48:31.907 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:48:31.909 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:48:31.956 [info] [pet] Locator Conda took 59.201379ms
+2025-10-14 09:48:31.956 [info] [pet] Locator Homebrew took 154.616698ms
+2025-10-14 09:48:31.956 [info] [pet] Locator MacCommandLineTools took 19.321101ms
+2025-10-14 09:48:31.956 [info] [pet] Locator MacPythonOrg took 34.952291ms
+2025-10-14 09:48:31.956 [info] [pet] Locator MacXCode took 11.478µs
+2025-10-14 09:48:31.956 [info] [pet] Locator PipEnv took 18.558µs
+2025-10-14 09:48:31.956 [info] [pet] Locator Pixi took 57.387µs
+2025-10-14 09:48:31.956 [info] [pet] Locator Poetry took 1.819258ms
+2025-10-14 09:48:31.957 [info] [pet] Locator PyEnv took 316.267µs
+2025-10-14 09:48:31.957 [info] [pet] Locator Venv took 18.173µs
+2025-10-14 09:48:31.957 [info] [pet] Locator VirtualEnv took 15.378µs
+2025-10-14 09:48:31.957 [info] [pet] Locator VirtualEnvWrapper took 12.327µs
+2025-10-14 09:48:31.957 [info] [pet] Locator GlobalVirtualEnvs took 20.130349ms
+2025-10-14 09:48:31.957 [info] [pet] Locator Locators took 157.3274ms
+2025-10-14 09:48:31.957 [info] [pet] Locator Path took 232.352166ms
+2025-10-14 09:48:31.957 [info] [pet] Locator Workspaces took 27.369655ms
+2025-10-14 09:48:31.957 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":232,"breakdown":{"GlobalVirtualEnvs":20,"Locators":157,"Path":232,"Workspaces":27},"locators":{"Conda":59,"Homebrew":154,"MacCommandLineTools":19,"MacPythonOrg":34,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":1,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:48:31.957 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:48:31.960 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:48:31.960 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:52:34.309 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:52:34.341 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:52:34.346 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:52:34.354 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:52:34.368 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:52:34.399 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:52:34.428 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:52:34.429 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:52:34.433 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:52:34.435 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:52:34.435 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:52:34.440 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:52:34.440 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:52:34.444 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:52:34.444 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:52:34.445 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:52:34.448 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:52:34.470 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:52:34.472 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:52:34.473 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:52:34.473 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:52:34.544 [info] [pet] Locator Conda took 126.309086ms
+2025-10-14 09:52:34.544 [info] [pet] Locator Homebrew took 134.879934ms
+2025-10-14 09:52:34.544 [info] [pet] Locator MacCommandLineTools took 39.100773ms
+2025-10-14 09:52:34.544 [info] [pet] Locator MacPythonOrg took 53.956307ms
+2025-10-14 09:52:34.544 [info] [pet] Locator MacXCode took 18.539µs
+2025-10-14 09:52:34.544 [info] [pet] Locator PipEnv took 28.976µs
+2025-10-14 09:52:34.544 [info] [pet] Locator Pixi took 52.693µs
+2025-10-14 09:52:34.544 [info] [pet] Locator Poetry took 1.727505ms
+2025-10-14 09:52:34.544 [info] [pet] Locator PyEnv took 242.82µs
+2025-10-14 09:52:34.544 [info] [pet] Locator Venv took 19.137µs
+2025-10-14 09:52:34.544 [info] [pet] Locator VirtualEnv took 29.58µs
+2025-10-14 09:52:34.545 [info] [pet] Locator VirtualEnvWrapper took 468.215µs
+2025-10-14 09:52:34.545 [info] [pet] Locator GlobalVirtualEnvs took 14.147559ms
+2025-10-14 09:52:34.545 [info] [pet] Locator Locators took 135.847567ms
+2025-10-14 09:52:34.545 [info] [pet] Locator Path took 231.271539ms
+2025-10-14 09:52:34.545 [info] [pet] Locator Workspaces took 4.315868ms
+2025-10-14 09:52:34.545 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":231,"breakdown":{"GlobalVirtualEnvs":14,"Locators":135,"Path":231,"Workspaces":4},"locators":{"Conda":126,"Homebrew":134,"MacCommandLineTools":39,"MacPythonOrg":53,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":1,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:52:34.546 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:52:34.551 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:52:34.551 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:55:18.197 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:55:18.299 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:55:18.300 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:55:18.301 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:55:18.302 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:55:18.303 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:55:18.304 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:55:18.304 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:55:18.304 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:55:18.304 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:55:18.305 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:55:18.306 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:55:18.335 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:55:18.337 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:55:18.369 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:55:18.371 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:55:18.380 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:55:18.382 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:55:18.399 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:55:18.406 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:55:18.407 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:55:18.485 [info] [pet] Locator Conda took 99.416492ms
+2025-10-14 09:55:18.485 [info] [pet] Locator Homebrew took 185.685134ms
+2025-10-14 09:55:18.485 [info] [pet] Locator MacCommandLineTools took 41.60465ms
+2025-10-14 09:55:18.485 [info] [pet] Locator MacPythonOrg took 84.869559ms
+2025-10-14 09:55:18.485 [info] [pet] Locator MacXCode took 20.746µs
+2025-10-14 09:55:18.485 [info] [pet] Locator PipEnv took 16.39µs
+2025-10-14 09:55:18.485 [info] [pet] Locator Pixi took 49.762µs
+2025-10-14 09:55:18.485 [info] [pet] Locator Poetry took 4.338615ms
+2025-10-14 09:55:18.485 [info] [pet] Locator PyEnv took 1.372865ms
+2025-10-14 09:55:18.485 [info] [pet] Locator Venv took 53.899µs
+2025-10-14 09:55:18.485 [info] [pet] Locator VirtualEnv took 7.885432ms
+2025-10-14 09:55:18.485 [info] [pet] Locator VirtualEnvWrapper took 7.953976ms
+2025-10-14 09:55:18.485 [info] [pet] Locator GlobalVirtualEnvs took 30.795897ms
+2025-10-14 09:55:18.485 [info] [pet] Locator Locators took 186.843754ms
+2025-10-14 09:55:18.486 [info] [pet] Locator Path took 286.532194ms
+2025-10-14 09:55:18.486 [info] [pet] Locator Workspaces took 61.359309ms
+2025-10-14 09:55:18.486 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":286,"breakdown":{"GlobalVirtualEnvs":30,"Locators":186,"Path":286,"Workspaces":61},"locators":{"Conda":99,"Homebrew":185,"MacCommandLineTools":41,"MacPythonOrg":84,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":4,"PyEnv":1,"Venv":0,"VirtualEnv":7,"VirtualEnvWrapper":7}}}}
+2025-10-14 09:55:18.486 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:55:18.489 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:55:18.489 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:55:23.553 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 09:55:23.633 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:55:23.744 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 09:55:23.747 [info] Discovered env: /usr/bin/python3
+2025-10-14 09:55:23.747 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 09:55:23.749 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 09:55:23.751 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 09:55:23.751 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 09:55:23.751 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 09:55:23.751 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 09:55:23.751 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 09:55:23.751 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 09:55:23.752 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 09:55:23.786 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 09:55:23.786 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 09:55:23.797 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 09:55:23.819 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 09:55:23.820 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 09:55:23.829 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 09:55:23.851 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 09:55:23.851 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 09:55:23.921 [info] [pet] Locator Conda took 84.374592ms
+2025-10-14 09:55:23.921 [info] [pet] Locator Homebrew took 265.255961ms
+2025-10-14 09:55:23.921 [info] [pet] Locator MacCommandLineTools took 33.920662ms
+2025-10-14 09:55:23.921 [info] [pet] Locator MacPythonOrg took 36.686934ms
+2025-10-14 09:55:23.921 [info] [pet] Locator MacXCode took 11.531µs
+2025-10-14 09:55:23.921 [info] [pet] Locator PipEnv took 4.643723ms
+2025-10-14 09:55:23.922 [info] [pet] Locator Pixi took 19.73µs
+2025-10-14 09:55:23.922 [info] [pet] Locator Poetry took 5.14811ms
+2025-10-14 09:55:23.922 [info] [pet] Locator PyEnv took 267.126µs
+2025-10-14 09:55:23.922 [info] [pet] Locator Venv took 13.139µs
+2025-10-14 09:55:23.922 [info] [pet] Locator VirtualEnv took 16.202µs
+2025-10-14 09:55:23.922 [info] [pet] Locator VirtualEnvWrapper took 19.779µs
+2025-10-14 09:55:23.922 [info] [pet] Locator GlobalVirtualEnvs took 10.43914ms
+2025-10-14 09:55:23.922 [info] [pet] Locator Locators took 265.837543ms
+2025-10-14 09:55:23.922 [info] [pet] Locator Path took 367.306938ms
+2025-10-14 09:55:23.922 [info] [pet] Locator Workspaces took 47.71556ms
+2025-10-14 09:55:23.922 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":367,"breakdown":{"GlobalVirtualEnvs":10,"Locators":265,"Path":367,"Workspaces":47},"locators":{"Conda":84,"Homebrew":265,"MacCommandLineTools":33,"MacPythonOrg":36,"MacXCode":0,"PipEnv":4,"Pixi":0,"Poetry":5,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 09:55:23.923 [info] Found venv environment: python (3.11.13)
+2025-10-14 09:55:23.925 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:55:23.925 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:15.149 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:09:15.179 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:09:15.180 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:09:15.184 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:09:15.204 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:09:15.213 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:09:15.214 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:09:15.218 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:09:15.219 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:09:15.226 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:09:15.251 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:09:15.268 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:09:15.270 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:09:15.270 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:09:15.271 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:09:15.275 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:09:15.295 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:09:15.302 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:09:15.303 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:09:15.305 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:09:15.307 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:09:15.458 [info] [pet] Locator Conda took 76.199383ms
+2025-10-14 10:09:15.458 [info] [pet] Locator Homebrew took 123.969812ms
+2025-10-14 10:09:15.458 [info] [pet] Locator MacCommandLineTools took 33.346982ms
+2025-10-14 10:09:15.458 [info] [pet] Locator MacPythonOrg took 53.338777ms
+2025-10-14 10:09:15.458 [info] [pet] Locator MacXCode took 99.336µs
+2025-10-14 10:09:15.458 [info] [pet] Locator PipEnv took 16.265µs
+2025-10-14 10:09:15.458 [info] [pet] Locator Pixi took 183.614µs
+2025-10-14 10:09:15.458 [info] [pet] Locator Poetry took 3.453447ms
+2025-10-14 10:09:15.458 [info] [pet] Locator PyEnv took 2.230346ms
+2025-10-14 10:09:15.459 [info] [pet] Locator Venv took 368.246µs
+2025-10-14 10:09:15.459 [info] [pet] Locator VirtualEnv took 427.148µs
+2025-10-14 10:09:15.459 [info] [pet] Locator VirtualEnvWrapper took 510.535µs
+2025-10-14 10:09:15.459 [info] [pet] Locator GlobalVirtualEnvs took 16.557539ms
+2025-10-14 10:09:15.459 [info] [pet] Locator Locators took 124.907327ms
+2025-10-14 10:09:15.459 [info] [pet] Locator Path took 307.607209ms
+2025-10-14 10:09:15.459 [info] [pet] Locator Workspaces took 12.663298ms
+2025-10-14 10:09:15.459 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":307,"breakdown":{"GlobalVirtualEnvs":16,"Locators":124,"Path":307,"Workspaces":12},"locators":{"Conda":76,"Homebrew":123,"MacCommandLineTools":33,"MacPythonOrg":53,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":3,"PyEnv":2,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 10:09:15.460 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:09:15.462 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:15.462 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:23.876 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:09:24.012 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:09:24.013 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:09:24.013 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:09:24.014 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:09:24.014 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:09:24.014 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:09:24.014 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:09:24.015 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:09:24.015 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:09:24.015 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:09:24.015 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:09:24.029 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:09:24.063 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:09:24.069 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:09:24.071 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:09:24.092 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:09:24.095 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:09:24.099 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:09:24.120 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:09:24.122 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:09:24.207 [info] [pet] Locator Conda took 97.615948ms
+2025-10-14 10:09:24.207 [info] [pet] Locator Homebrew took 218.356997ms
+2025-10-14 10:09:24.207 [info] [pet] Locator MacCommandLineTools took 17.591058ms
+2025-10-14 10:09:24.207 [info] [pet] Locator MacPythonOrg took 63.351522ms
+2025-10-14 10:09:24.207 [info] [pet] Locator MacXCode took 35.119µs
+2025-10-14 10:09:24.207 [info] [pet] Locator PipEnv took 3.503063ms
+2025-10-14 10:09:24.207 [info] [pet] Locator Pixi took 69.391µs
+2025-10-14 10:09:24.207 [info] [pet] Locator Poetry took 9.734737ms
+2025-10-14 10:09:24.207 [info] [pet] Locator PyEnv took 272.035µs
+2025-10-14 10:09:24.207 [info] [pet] Locator Venv took 37.406µs
+2025-10-14 10:09:24.207 [info] [pet] Locator VirtualEnv took 34.677µs
+2025-10-14 10:09:24.207 [info] [pet] Locator VirtualEnvWrapper took 3.426336ms
+2025-10-14 10:09:24.207 [info] [pet] Locator GlobalVirtualEnvs took 46.502662ms
+2025-10-14 10:09:24.208 [info] [pet] Locator Locators took 220.397377ms
+2025-10-14 10:09:24.208 [info] [pet] Locator Path took 323.331869ms
+2025-10-14 10:09:24.208 [info] [pet] Locator Workspaces took 67.886825ms
+2025-10-14 10:09:24.208 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":324,"breakdown":{"GlobalVirtualEnvs":46,"Locators":220,"Path":323,"Workspaces":67},"locators":{"Conda":97,"Homebrew":218,"MacCommandLineTools":17,"MacPythonOrg":63,"MacXCode":0,"PipEnv":3,"Pixi":0,"Poetry":9,"PyEnv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":3}}}}
+2025-10-14 10:09:24.208 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:09:24.210 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:24.211 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:31.978 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:09:32.015 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:09:32.016 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:09:32.017 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:09:32.019 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:09:32.069 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:09:32.087 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:09:32.089 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:09:32.089 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:09:32.089 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:09:32.089 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:09:32.089 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:09:32.089 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:09:32.090 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:09:32.102 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:09:32.108 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:09:32.114 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:09:32.123 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:09:32.124 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:09:32.133 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:09:32.141 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:09:32.256 [info] [pet] Locator Conda took 108.486571ms
+2025-10-14 10:09:32.256 [info] [pet] Locator Homebrew took 134.806428ms
+2025-10-14 10:09:32.256 [info] [pet] Locator MacCommandLineTools took 12.418854ms
+2025-10-14 10:09:32.256 [info] [pet] Locator MacPythonOrg took 37.96538ms
+2025-10-14 10:09:32.256 [info] [pet] Locator MacXCode took 16.946µs
+2025-10-14 10:09:32.256 [info] [pet] Locator PipEnv took 24.298µs
+2025-10-14 10:09:32.256 [info] [pet] Locator Pixi took 19µs
+2025-10-14 10:09:32.256 [info] [pet] Locator Poetry took 1.523502ms
+2025-10-14 10:09:32.256 [info] [pet] Locator PyEnv took 310.88µs
+2025-10-14 10:09:32.256 [info] [pet] Locator Venv took 21.868µs
+2025-10-14 10:09:32.256 [info] [pet] Locator VirtualEnv took 1.143317ms
+2025-10-14 10:09:32.256 [info] [pet] Locator VirtualEnvWrapper took 339.335µs
+2025-10-14 10:09:32.256 [info] [pet] Locator GlobalVirtualEnvs took 12.597049ms
+2025-10-14 10:09:32.256 [info] [pet] Locator Locators took 135.825628ms
+2025-10-14 10:09:32.257 [info] [pet] Locator Path took 276.401661ms
+2025-10-14 10:09:32.257 [info] [pet] Locator Workspaces took 11.626375ms
+2025-10-14 10:09:32.257 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":276,"breakdown":{"GlobalVirtualEnvs":12,"Locators":135,"Path":276,"Workspaces":11},"locators":{"Conda":108,"Homebrew":134,"MacCommandLineTools":12,"MacPythonOrg":37,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":1,"PyEnv":0,"Venv":0,"VirtualEnv":1,"VirtualEnvWrapper":0}}}}
+2025-10-14 10:09:32.257 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:09:32.259 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:32.259 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:38.198 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:09:38.285 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:09:38.285 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:09:38.285 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:09:38.285 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:09:38.285 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:09:38.295 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:09:38.295 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:09:38.298 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:09:38.299 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:09:38.302 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:09:38.311 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:09:38.336 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:09:38.342 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:09:38.392 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:09:38.393 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:09:38.396 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:09:38.406 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:09:38.423 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:09:38.423 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:09:38.423 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:09:38.558 [info] [pet] Locator Conda took 102.445972ms
+2025-10-14 10:09:38.558 [info] [pet] Locator Homebrew took 196.855224ms
+2025-10-14 10:09:38.558 [info] [pet] Locator MacCommandLineTools took 24.48527ms
+2025-10-14 10:09:38.558 [info] [pet] Locator MacPythonOrg took 74.636702ms
+2025-10-14 10:09:38.558 [info] [pet] Locator MacXCode took 19.19µs
+2025-10-14 10:09:38.558 [info] [pet] Locator PipEnv took 13.057µs
+2025-10-14 10:09:38.558 [info] [pet] Locator Pixi took 26.321µs
+2025-10-14 10:09:38.558 [info] [pet] Locator Poetry took 672.619µs
+2025-10-14 10:09:38.558 [info] [pet] Locator PyEnv took 252.52µs
+2025-10-14 10:09:38.558 [info] [pet] Locator Venv took 3.356362ms
+2025-10-14 10:09:38.558 [info] [pet] Locator VirtualEnv took 15.64µs
+2025-10-14 10:09:38.558 [info] [pet] Locator VirtualEnvWrapper took 20.649µs
+2025-10-14 10:09:38.558 [info] [pet] Locator GlobalVirtualEnvs took 15.983ms
+2025-10-14 10:09:38.558 [info] [pet] Locator Locators took 197.542187ms
+2025-10-14 10:09:38.559 [info] [pet] Locator Path took 358.397477ms
+2025-10-14 10:09:38.559 [info] [pet] Locator Workspaces took 34.372795ms
+2025-10-14 10:09:38.559 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":358,"breakdown":{"GlobalVirtualEnvs":15,"Locators":197,"Path":358,"Workspaces":34},"locators":{"Conda":102,"Homebrew":196,"MacCommandLineTools":24,"MacPythonOrg":74,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Venv":3,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 10:09:38.559 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:09:38.562 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:09:38.562 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:19:19.423 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:19:19.509 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:19:19.531 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:19:19.533 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:19:19.540 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:19:19.541 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:19:19.542 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:19:19.542 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:19:19.543 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:19:19.544 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:19:19.545 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:19:19.563 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:19:19.583 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:19:19.596 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:19:19.601 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:19:19.602 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:19:19.624 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:19:19.624 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:19:19.634 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:19:19.652 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:19:19.654 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:19:19.731 [info] [pet] Locator Conda took 92.449333ms
+2025-10-14 10:19:19.731 [info] [pet] Locator Homebrew took 199.381549ms
+2025-10-14 10:19:19.731 [info] [pet] Locator MacCommandLineTools took 24.289574ms
+2025-10-14 10:19:19.731 [info] [pet] Locator MacPythonOrg took 56.465655ms
+2025-10-14 10:19:19.731 [info] [pet] Locator MacXCode took 1.030085ms
+2025-10-14 10:19:19.731 [info] [pet] Locator PipEnv took 15.384µs
+2025-10-14 10:19:19.731 [info] [pet] Locator Pixi took 71.594µs
+2025-10-14 10:19:19.731 [info] [pet] Locator Poetry took 2.041176ms
+2025-10-14 10:19:19.731 [info] [pet] Locator PyEnv took 1.904085ms
+2025-10-14 10:19:19.731 [info] [pet] Locator Venv took 31.006µs
+2025-10-14 10:19:19.731 [info] [pet] Locator VirtualEnv took 34.711µs
+2025-10-14 10:19:19.731 [info] [pet] Locator VirtualEnvWrapper took 220.743µs
+2025-10-14 10:19:19.731 [info] [pet] Locator GlobalVirtualEnvs took 12.302511ms
+2025-10-14 10:19:19.732 [info] [pet] Locator Locators took 199.770313ms
+2025-10-14 10:19:19.732 [info] [pet] Locator Path took 306.635467ms
+2025-10-14 10:19:19.732 [info] [pet] Locator Workspaces took 11.618867ms
+2025-10-14 10:19:19.732 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":306,"breakdown":{"GlobalVirtualEnvs":12,"Locators":199,"Path":306,"Workspaces":11},"locators":{"Conda":92,"Homebrew":199,"MacCommandLineTools":24,"MacPythonOrg":56,"MacXCode":1,"PipEnv":0,"Pixi":0,"Poetry":2,"PyEnv":1,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0}}}}
+2025-10-14 10:19:19.732 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:19:19.734 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:19:19.734 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:19:23.288 [info] getAllExtraSearchPaths completed. Total unique search directories: 0 Paths: []
+2025-10-14 10:19:23.335 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3.8
+2025-10-14 10:19:23.335 [info] Discovered env: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 10:19:23.336 [info] Discovered env: /Library/Developer/CommandLineTools/usr/bin/python3
+2025-10-14 10:19:23.336 [info] Discovered env: /usr/bin/python3
+2025-10-14 10:19:23.336 [info] Discovered env: /usr/local/bin/python3.7
+2025-10-14 10:19:23.341 [info] Discovered manager: (Conda) /opt/miniconda3/bin/conda
+2025-10-14 10:19:23.342 [info] Discovered env: /opt/miniconda3/bin/python
+2025-10-14 10:19:23.345 [info] Discovered manager: (Conda) /opt/anaconda3/bin/conda
+2025-10-14 10:19:23.345 [info] Discovered env: /opt/anaconda3/envs/enrichment/bin/python
+2025-10-14 10:19:23.349 [info] Discovered env: /opt/anaconda3/bin/python
+2025-10-14 10:19:23.352 [info] Discovered env: /usr/local/bin/python3
+2025-10-14 10:19:23.377 [info] Discovered env: /usr/local/bin/python3.10
+2025-10-14 10:19:23.382 [info] Resolved environment during PET refresh: /usr/local/bin/python3
+2025-10-14 10:19:23.407 [info] Discovered env: /usr/local/bin/python3.11
+2025-10-14 10:19:23.407 [info] Discovered env: /usr/local/bin/python3.12
+2025-10-14 10:19:23.410 [info] Discovered env: /usr/local/bin/python3.9
+2025-10-14 10:19:23.417 [info] Resolved environment during PET refresh: /usr/local/bin/python3.10
+2025-10-14 10:19:23.432 [info] Resolved environment during PET refresh: /usr/local/bin/python3.11
+2025-10-14 10:19:23.434 [info] Resolved environment during PET refresh: /usr/local/bin/python3.12
+2025-10-14 10:19:23.436 [info] Resolved environment during PET refresh: /usr/local/bin/python3.9
+2025-10-14 10:19:23.503 [info] [pet] Locator Conda took 60.366752ms
+2025-10-14 10:19:23.503 [info] [pet] Locator Homebrew took 120.832427ms
+2025-10-14 10:19:23.503 [info] [pet] Locator MacCommandLineTools took 8.687748ms
+2025-10-14 10:19:23.503 [info] [pet] Locator MacPythonOrg took 30.30676ms
+2025-10-14 10:19:23.503 [info] [pet] Locator MacXCode took 114.611µs
+2025-10-14 10:19:23.503 [info] [pet] Locator PipEnv took 14.842µs
+2025-10-14 10:19:23.503 [info] [pet] Locator Pixi took 17.879µs
+2025-10-14 10:19:23.503 [info] [pet] Locator Poetry took 504.495µs
+2025-10-14 10:19:23.503 [info] [pet] Locator PyEnv took 595.177µs
+2025-10-14 10:19:23.503 [info] [pet] Locator Venv took 17.451µs
+2025-10-14 10:19:23.503 [info] [pet] Locator VirtualEnv took 4.381494ms
+2025-10-14 10:19:23.503 [info] [pet] Locator VirtualEnvWrapper took 12.949µs
+2025-10-14 10:19:23.503 [info] [pet] Locator GlobalVirtualEnvs took 15.995343ms
+2025-10-14 10:19:23.503 [info] [pet] Locator Locators took 122.146552ms
+2025-10-14 10:19:23.503 [info] [pet] Locator Path took 214.141757ms
+2025-10-14 10:19:23.504 [info] [pet] Locator Workspaces took 22.554226ms
+2025-10-14 10:19:23.504 [info] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":214,"breakdown":{"GlobalVirtualEnvs":15,"Locators":122,"Path":214,"Workspaces":22},"locators":{"Conda":60,"Homebrew":120,"MacCommandLineTools":8,"MacPythonOrg":30,"MacXCode":0,"PipEnv":0,"Pixi":0,"Poetry":0,"PyEnv":0,"Venv":0,"VirtualEnv":4,"VirtualEnvWrapper":0}}}}
+2025-10-14 10:19:23.504 [info] Found venv environment: python (3.11.13)
+2025-10-14 10:19:23.506 [info] Python API: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 10:19:23.506 [info] Internal: Changed environment from python (3.11.13) to python (3.11.13) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App

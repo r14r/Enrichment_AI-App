@@ -1,0 +1,42 @@
+open visualstudiocode app
+wait 5 seconds
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+type 'ctrl+alt+B' if there is a chat box on right side of vscode
+click 'Azure AI Foundry' icon in Activity Bar in vscode
+wait 5 seconds
+if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to hide bottom panel
+if there is any notification box with a 'Clear Notification (Delete)' button on the right bottom area of the vscode window, click the 'Clear Notification (Delete)' button to close the notification
+type 'ctrl+shift+P'
+type 'Clear Default Project' and press enter
+type 'ctrl+shift+P' to open command palette
+type 'Set Default Project' and press enter
+wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+if the item 'Sign in to Azure' appears, then type text 'Sign in to Azure' with enter and wait until 'Pick a project' selection options finish loading
+if placeholder 'Select a subscription, ...' appears, then type text 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+type text 'huajieproj0704' with enter
+wait 10 seconds
+type 'ctrl+shift+P'
+type text 'Deploy a new AI model' with enter
+wait until progress bar 'Fetching project and model resources...' disappear
+assert there is an opened 'Model deployment' webview
+click the dropdown list in 'Deploy model' field
+click 'gpt-4o' in the dropdown list
+type '-vscuse-test' in 'Deployment name' text input box in the deployment page
+scroll down one page
+click the button 'Deploy to Azure AI Foundry'
+click 'Deploy' button in the confirm dialog
+wait until 'Deploying Model: ...' progress bar disappear
+click 'Models' tree node in 'RESOURCES' panel
+wait until 'Models' sub nodes loaded
+assert there is a child named 'gpt-4o-vscuse-test' under 'Models' node in RESOURCES panel
+click 'gpt-4o-vscuse-test' under 'Models' node
+assert in the middle opened model page, the value of 'Name' is 'gpt-4o-vscuse-test'
+type 'ctrl+shift+P'
+type text 'Close All Editors' with enter
+right click node 'gpt-4o-vscuse-test'
+select and click 'Delete' button from the dropdown menu that appears
+click 'Delete' button in the confirm dialog
+wait until children of 'Models' finish loading
+assert there is no child named 'gpt-4o-vscuse-test' under 'Models' node
+type 'alt+F4'

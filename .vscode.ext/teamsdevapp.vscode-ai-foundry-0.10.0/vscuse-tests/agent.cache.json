@@ -1,0 +1,12 @@
+{
+    "Azure AI Foundry icon in the Activity Bar in VS Code": [24, 395],
+    "tree node 'Agents' in the 'RESOURCES' panel": [118, 147],
+    "'Create new agent' plus icon to the right of 'Agents' node in RESOURCES panel": [281, 147],
+    "text input 'Name' field in 'New Agent' editor": [564, 286],
+    "'Model' dropdown list in 'New Agent' editor": [563, 354],
+    "the first option item in the 'Model' dropdown list in the 'New Agent' editor": [515, 381],
+    "'Create Agent on Azure AI Foundry' blue button in 'New Agent' editor": [388, 657.5],
+    "tree node item 'Agents' under RESOURCES panel": [175.5, 147],
+    "tree node item 'vscuse-test' under 'Agents' node": [175.5, 169],
+    "'Delete' button in confirm dialog": [555, 370.5]
+}

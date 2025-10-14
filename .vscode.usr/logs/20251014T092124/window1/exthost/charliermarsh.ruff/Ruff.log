@@ -1,0 +1,173 @@
+2025-10-14 09:23:06.369 [info] Name: Ruff
+2025-10-14 09:23:06.370 [info] Module: ruff
+2025-10-14 09:23:06.370 [info] Python extension loading
+2025-10-14 09:23:06.370 [info] Waiting for interpreter from python extension.
+2025-10-14 09:23:06.524 [info] Python extension loaded
+2025-10-14 09:23:06.526 [info] Using interpreter: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:06.541 [info] Workspace settings for /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App: {
+    "nativeServer": "auto",
+    "cwd": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App",
+    "workspace": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2025-10-14 09:23:06.543 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/",
+    "workspace": "/",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2025-10-14 09:23:06.644 [info] Using the Ruff binary: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff
+2025-10-14 09:23:07.593 [info] Triggered Ruff restart while restart is in progress; queuing a restart.
+2025-10-14 09:23:08.649 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-10-14 09:23:08.652 [info] Found Ruff 0.13.3 at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff
+2025-10-14 09:23:08.653 [info] Server run command: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff server
+2025-10-14 09:23:08.654 [info] Server: Start requested.
+2025-10-14 09:23:08.717 [info] Server: Stop requested
+2025-10-14 09:23:08.741 [info] Using interpreter: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python
+2025-10-14 09:23:08.777 [info] Workspace settings for /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App: {
+    "nativeServer": "auto",
+    "cwd": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App",
+    "workspace": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2025-10-14 09:23:08.786 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/",
+    "workspace": "/",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2025-10-14 09:23:08.916 [info] Using the Ruff binary: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff
+2025-10-14 09:23:08.924 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-10-14 09:23:08.925 [info] Found Ruff 0.13.3 at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff
+2025-10-14 09:23:08.925 [info] Server run command: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/ruff server
+2025-10-14 09:23:08.925 [info] Server: Start requested.

@@ -1,0 +1,78 @@
+2025-10-14 09:23:08.551 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.16.0)
+2025-10-14 09:23:10.288 [info] (73250) Server root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-14 09:23:10.289 [info] (73250) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-14 09:23:10.306 [info] (73250) Starting service instance "Enrichment_AI-App" for workspace "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App"
+2025-10-14 09:23:10.366 [info] (73250) Loading pyproject.toml file at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/pyproject.toml
+2025-10-14 09:23:10.367 [info] (73250) Pyproject file "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/pyproject.toml" has no "[tool.pyright]" section.
+2025-10-14 09:23:10.367 [info] (73250) Setting environmentName for service "Enrichment_AI-App": "python (3.11.13)"
+2025-10-14 09:23:10.367 [info] (73250) Setting pythonPath for service "Enrichment_AI-App": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.venv/python/bin/python"
+2025-10-14 09:23:10.368 [info] (73250) No include entries specified; assuming /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App
+2025-10-14 09:23:10.369 [info] (73250) Auto-excluding **/node_modules
+2025-10-14 09:23:10.369 [info] (73250) Auto-excluding **/__pycache__
+2025-10-14 09:23:10.369 [info] (73250) Auto-excluding **/.*
+2025-10-14 09:23:10.410 [info] (73250) Assuming Python version 3.11.13.final.0
+2025-10-14 09:23:10.516 [info] (73250) Found 54 source files
+2025-10-14 09:23:10.522 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:23:10.746 [info] (73250) Starting Mcp server id:4784 ...
+2025-10-14 09:23:11.406 [info] (73250) BG: Priority queue background worker(2) root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-14 09:23:11.409 [info] (73250) BG: Priority queue background worker(2) started
+2025-10-14 09:23:11.545 [info] (73250) BG: Indexer background runner(3) root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-14 09:23:11.545 [info] (73250) BG: Indexing(3) started
+2025-10-14 09:23:12.759 [info] (73250) BG: scanned(3) 962 files over 1 exec env
+2025-10-14 09:23:15.897 [info] (73250) BG: [IDX(3)] Long operation: index execution environment file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App (2984ms)
+2025-10-14 09:23:15.966 [info] (73250) BG: [IDX(3)] Long operation: index packages file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App (3065ms)
+2025-10-14 09:23:15.966 [info] (73250) BG: indexed(3) 962 files over 1 exec env
+2025-10-14 09:23:16.090 [info] (73250) BG: Indexing finished(3).
+2025-10-14 09:24:26.821 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:39.626 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:56.437 [info] (73250) Starting service instance "<default>" for workspace ""
+2025-10-14 09:41:56.544 [info] (73250) Setting environmentName for service "<default>": "Python 3.13.7 (homebrew)"
+2025-10-14 09:41:56.545 [info] (73250) Setting pythonPath for service "<default>": "/usr/local/bin/python3"
+2025-10-14 09:41:56.545 [info] (73250) No include entries specified; assuming /<default workspace root>
+2025-10-14 09:41:56.545 [info] (73250) Auto-excluding **/node_modules
+2025-10-14 09:41:56.546 [info] (73250) Auto-excluding **/__pycache__
+2025-10-14 09:41:56.546 [info] (73250) Auto-excluding **/.*
+2025-10-14 09:41:56.642 [info] (73250) Assuming Python version 3.13.7.final.0
+2025-10-14 09:41:56.948 [error] (73250) File or directory "/<default workspace root>" does not exist.
+2025-10-14 09:41:56.948 [info] (73250) No source files found.
+2025-10-14 09:41:56.958 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:56.958 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:57.044 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:57.045 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:41:58.159 [info] (73250) BG: Priority queue background worker(5) root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-14 09:41:58.160 [info] (73250) BG: Priority queue background worker(5) started
+2025-10-14 09:48:23.629 [info] (73250) Found 47 source files
+2025-10-14 09:48:23.968 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:48:23.968 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:48:31.531 [info] (73250) Found 46 source files
+2025-10-14 09:48:31.976 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:48:31.976 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:52:34.564 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:52:34.564 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:55:18.441 [info] (73250) Found 45 source files
+2025-10-14 09:55:18.502 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:55:18.502 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:55:23.485 [info] (73250) Found 36 source files
+2025-10-14 09:55:23.938 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 09:55:23.938 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:15.027 [info] (73250) Found 32 source files
+2025-10-14 10:09:15.478 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:15.478 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:23.884 [info] (73250) Found 30 source files
+2025-10-14 10:09:24.224 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:24.225 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:31.816 [info] (73250) Found 29 source files
+2025-10-14 10:09:32.273 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:32.273 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:38.580 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:09:38.580 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:19:19.340 [info] (73250) Found 24 source files
+2025-10-14 10:19:19.749 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:19:19.749 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:19:23.280 [info] (73250) Found 21 source files
+2025-10-14 10:19:23.521 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:19:23.521 [info] (73250) Settings have not changed. Skipping update.
+2025-10-14 10:35:43.597 [info] (73250) Found 22 source files
+2025-10-14 10:35:47.143 [info] (73250) Found 22 source files
+2025-10-14 10:36:09.037 [info] (73250) Found 22 source files
+2025-10-14 10:39:26.022 [info] (73250) Found 22 source files

@@ -1,0 +1,26 @@
+[project]
+name = "50-miniapps"
+version = "0.1.0"
+description = "MiniApps with Streamlit and Ollama"
+readme = "README.md"
+
+requires-python = ">=3.11,<3.12"  # 3.11 is fine
+dependencies = [
+    "numpy>=1.26,<2.0",
+    "faiss-cpu==1.8.0",
+    "isort>=6.1.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.30",
+    "langchain-ollama>=0.3.10",
+    "ollama>=0.6.0",
+    "pdfminer>=20191125",
+    "pre-commit>=4.3.0",
+    "pypdf>=6.1.1",
+    "ruff>=0.13.3",
+    "streamlit>=1.50.0",
+    "watchdog>=6.0.0",
+    "moviepy>=2.2.1",
+    "imageio-ffmpeg>=0.6.0",
+    "pyttsx3>=2.99",
+]
+

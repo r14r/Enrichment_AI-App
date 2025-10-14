@@ -1,0 +1,12 @@
+{
+    "Azure AI Foundry icon in the Activity Bar in VS Code": [24, 395],
+    "dropdown list in 'Deploy model' field": [774.5, 380.5],
+    "'gpt-4o' option in the dropdown list": [656, 85],
+    "Deployment name text input box in the deployment page": [774.5, 422.5],
+    "'Deploy to Azure AI Foundry' button": [466, 651],
+    "'Deploy' button in the confirm dialog": [656.5, 374.5],
+    "tree node item 'Models' in 'RESOURCES' panel": [175.5, 125],
+    "tree node item 'gpt-4o-vscuse-test' under 'Models' node": [175.5, 169],
+    "'Delete' button in dropdown menu": [262.5, 314],
+    "'Delete' button in the confirm dialog": [555, 370.5]
+}

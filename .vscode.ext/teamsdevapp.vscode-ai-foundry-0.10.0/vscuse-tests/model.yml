@@ -1,0 +1,453 @@
+- type: action
+  description: open visualstudiocode app
+  actions:
+  - name: open_app
+    inputs:
+      app_name: visualstudiocode
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: 'type text ''View: Close All Editors'' with enter'
+  actions:
+  - name: type_text
+    inputs:
+      value: 'View: Close All Editors'
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: condition
+  description: type 'ctrl+alt+B' if there is a chat box on right side of vscode
+  branches:
+  - type: if
+    description: if there is a chat box on right side of vscode
+    condition:
+      name: ui_assert
+      inputs:
+        description: chat box is present on the right side of VS Code
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+alt+B
+      output: null
+- type: action
+  description: click 'Azure AI Foundry' icon in Activity Bar in vscode
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: Azure AI Foundry icon in the Activity Bar in VS Code
+    output: null
+- type: action
+  description: wait 5 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 5
+    output: null
+- type: condition
+  description: if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to
+    hide bottom panel
+  branches:
+  - type: if
+    description: if the bottom panel contains 'TERMINAL' tab
+    condition:
+      name: ui_assert
+      inputs:
+        description: bottom panel contains 'TERMINAL' tab
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: press_key
+      inputs:
+        key: ctrl+J
+      output: null
+- type: condition
+  description: if there is any notification box with a 'Clear Notification (Delete)'
+    button on the right bottom area of the vscode window, click the 'Clear Notification
+    (Delete)' button to close the notification
+  branches:
+  - type: if
+    description: if there is any notification box with a 'Clear Notification (Delete)'
+      button on the right bottom area of the vscode window
+    condition:
+      name: ui_assert
+      inputs:
+        description: notification box with 'Clear Notification (Delete)' button is
+          present on the right bottom area of the VS Code window
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: click
+      inputs:
+        click_type: left
+        location: '''Clear Notification (Delete)'' button in the notification box
+          at the right bottom area of the VS Code window'
+      output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Clear Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Clear Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: type 'ctrl+shift+P' to open command palette
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type 'Set Default Project' and press enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Set Default Project
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: "''Pick a project'' selection options contains ''Sign in to Azure''' or ''Azure Machine Learning Extension Dev Ad-hoc - Commerical'' appears in the list"
+      condition_evidences:
+      - dom
+    output: null
+- type: condition
+  description: if the item 'Sign in to Azure' appears, then type text 'Sign in to
+    Azure' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if the item 'Sign in to Azure' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: item 'Sign in to Azure' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Sign in to Azure
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: condition
+  description: if placeholder 'Select a subscription, ...' appears, then type text
+    'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+  branches:
+  - type: if
+    description: if placeholder 'Select a subscription, ...' appears
+    condition:
+      name: ui_assert
+      inputs:
+        description: placeholder 'Select a subscription, ...' appears
+        evidences:
+        - dom
+      output: null
+    actions:
+    - name: type_text
+      inputs:
+        value: Azure Machine Learning Extension Dev Ad-hoc - Commerical
+        location: ''
+        is_random: false
+        is_password: false
+        is_enter: true
+      output: null
+    - name: wait
+      inputs:
+        mode: until
+        seconds: 60
+        condition_description: '''Pick a project'' selection options finish loading'
+        condition_evidences:
+        - ocr
+      output: null
+- type: action
+  description: type text 'huajieproj0704' with enter
+  actions:
+  - name: type_text
+    inputs:
+      value: huajieproj0704
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait 10 seconds
+  actions:
+  - name: wait
+    inputs:
+      mode: fixed
+      seconds: 10
+    output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type text 'Deploy a new AI model' with enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Deploy a new AI model
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: wait until progress bar 'Fetching project and model resources...' disappear
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 120
+      condition_description: progress bar 'Fetching project and model resources...' disappears
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: assert there is an opened 'Model deployment' webview
+  actions:
+  - name: ui_assert
+    inputs:
+      description: opened 'Model deployment' webview is present
+      evidences:
+      - ocr
+    output: null
+- type: action
+  description: click the dropdown list in 'Deploy model' field
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: dropdown list in 'Deploy model' field
+    output: null
+- type: action
+  description: click 'gpt-4o' in the dropdown list
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: '''gpt-4o'' option in the dropdown list'
+    output: null
+- type: action
+  description: type '-vscuse-test' in 'Deployment name' text input box in the deployment
+    page
+  actions:
+  - name: type_text
+    inputs:
+      value: -vscuse-test
+      location: Deployment name text input box in the deployment page
+      is_random: false
+      is_password: false
+      is_enter: false
+    output: null
+- type: action
+  description: scroll down one page
+  actions:
+  - name: scroll_down
+    inputs:
+      location_description: ''
+      location_coordinate: []
+      location_tag: ''
+      pages: 1
+    output: null
+- type: action
+  description: click the button 'Deploy to Azure AI Foundry'
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Deploy to Azure AI Foundry' button"
+    output: null
+- type: action
+  description: click 'Deploy' button in the confirm dialog
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: "'Deploy' button in the confirm dialog"
+    output: null
+- type: action
+  description: 'wait until ''Deploying Model: ...'' progress bar disappear'
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 120
+      condition_description: '''Deploying Model: ...'' progress bar disappears'
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: click tree node item 'Models' in 'RESOURCES' panel
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: tree node item 'Models' in 'RESOURCES' panel
+    output: null
+- type: action
+  description: wait until 'Models' sub nodes loaded
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 120
+      condition_description: '''Models'' sub nodes are loaded'
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: assert there is a child named 'gpt-4o-vscuse-test' under 'Models' node
+    in RESOURCES panel
+  actions:
+  - name: ui_assert
+    inputs:
+      description: child named 'gpt-4o-vscuse-test' exists under 'Models' node in
+        RESOURCES panel
+      evidences:
+      - dom
+    output: null
+- type: action
+  description: click tree node item 'gpt-4o-vscuse-test' under 'Models' node
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: tree node item 'gpt-4o-vscuse-test' under 'Models' node
+    output: null
+- type: action
+  description: assert in the middle opened model page, the value of 'Name' is 'gpt-4o-vscuse-test'
+  actions:
+  - name: ui_assert
+    inputs:
+      description: in the middle opened model page, the value of 'Name' is 'gpt-4o-vscuse-test'
+      evidences:
+      - ocr
+    output: null
+- type: action
+  description: type 'ctrl+shift+P'
+  actions:
+  - name: press_key
+    inputs:
+      key: ctrl+shift+P
+    output: null
+- type: action
+  description: type text 'Close All Editors' with enter
+  actions:
+  - name: type_text
+    inputs:
+      value: Close All Editors
+      location: ''
+      is_random: false
+      is_password: false
+      is_enter: true
+    output: null
+- type: action
+  description: right click tree node item 'gpt-4o-vscuse-test' under 'Models' node
+  actions:
+  - name: click
+    inputs:
+      click_type: right
+      location: tree node item 'gpt-4o-vscuse-test' under 'Models' node
+    output: null
+- type: action
+  description: select and click 'Delete' button from the dropdown menu that appears
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: '''Delete'' button in dropdown menu'
+    output: null
+- type: action
+  description: click 'Delete' button in the confirm dialog
+  actions:
+  - name: click
+    inputs:
+      click_type: left
+      location: '''Delete'' button in the confirm dialog'
+    output: null
+- type: action
+  description: wait until children of 'Agents' finish loading
+  actions:
+  - name: wait
+    inputs:
+      mode: until
+      seconds: 60
+      condition_description: children of 'Models' finish loading
+      condition_evidences:
+      - ocr
+    output: null
+- type: action
+  description: assert there is no child named 'gpt-4o-vscuse-test' under 'Models'
+    node
+  actions:
+  - name: ui_assert
+    inputs:
+      description: no child named 'gpt-4o-vscuse-test' exists under 'Models' node
+      evidences:
+      - dom
+    output: null
+- type: action
+  description: type 'alt+F4'
+  actions:
+  - name: press_key
+    inputs:
+      key: alt+F4
+    output: null

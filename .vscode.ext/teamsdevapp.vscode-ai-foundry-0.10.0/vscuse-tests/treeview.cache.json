@@ -1,0 +1,14 @@
+{
+    "Azure AI Foundry icon in the Activity Bar in VS Code": [24, 395],
+    "tree node item 'Models' in the 'RESOURCES' panel": [175.5, 125],
+    "tree node item 'gpt-4o' under 'Models' node": [175.5, 147],
+    "tree node item 'Agents' in the 'RESOURCES' panel": [175.5, 147],
+    "tree node item 'agent-test' under 'Agents' node": [175.5, 169],
+    "tree node item 'Threads' in the 'RESOURCES' panel": [175.5, 191],
+    "the first tree node item available under 'Threads' node": [175.5, 213],
+    "tree node item 'Assets' in the 'RESOURCES' panel": [175.5, 169],
+    "tree node item 'Connections' under the 'Assets' node": [175.5, 191],
+    "tree node item 'fanaibing' under the 'Connections' node": [175.5, 213],
+    "tree node item 'Vector Stores' under the 'Assets' node": [175.5, 213],
+    "tree node item 'AgentVectorStore_8131' under 'Vector Stores' node": [175.5, 235]
+}

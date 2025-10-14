@@ -1,0 +1,71 @@
+open visualstudiocode app
+wait 7 seconds
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+type 'ctrl+alt+B' if there is a chat box on right side of vscode
+click 'Azure AI Foundry' icon in Activity Bar in vscode
+wait 5 seconds
+if the bottom panel contains 'TERMINAL' tab, then type 'ctrl+J' to hide bottom panel
+if there is any notification box with a 'Clear Notification (Delete)' button on the right bottom area of the vscode window, click the 'Clear Notification (Delete)' button to close the notification
+type 'ctrl+shift+P'
+type 'Clear Default Project' and press enter
+type 'ctrl+shift+P' to open command palette
+type 'Set Default Project' and press enter
+wait until 'Pick a project' selection options contains 'Sign in to Azure' or 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' appears in the list
+if the item 'Sign in to Azure' appears, then type text 'Sign in to Azure' with enter and wait until 'Pick a project' selection options finish loading
+if placeholder 'Select a subscription, ...' appears, then type text 'Azure Machine Learning Extension Dev Ad-hoc - Commerical' with enter and wait until 'Pick a project' selection options finish loading
+type text 'huimiao-0708' and press enter
+click tree node item 'Agents' under RESOURCES panel
+if there is a tree node item 'vscuse-bing' under 'Agents' node, then do the following steps: 1. right click tree node item 'vscuse-bing' under 'Agents' node; 2. click 'Delete' button from the dropdown menu that appears; 3. click 'Delete' button in the confirm dialog;
+click tree node item 'Agents' under RESOURCES panel
+move the mouse to tree node item 'Agents' in "RESOURCES" panel 
+click 'Create new agent' plus icon to the right of "Agents" node (the same line as "Agents")
+wait until 'AGENT PREFERENCES' text appears in the page
+click 'Close (Ctrl+F4)' button besides the 'new-agent.agent.yaml'
+in the 'New Agent' editor, click the text input 'Name' field
+type 'ctrl+A'
+type "vscuse-bing"
+in the 'New Agent' editor, click the 'Model' dropdown list
+wait until model dropdown list finish loading and text 'Browse other models' appears
+click the item 'gpt-4o-mini' in the dropdown list
+scroll down one page
+click '+ Add tool' button
+assert there are four tools in the page: 'Files', 'Grounding with Bing Search', 'Code Interpreter', 'OpenAPI 3.0 specified tool'
+click the second option 'Grounding with Bing Search' in the dropdown list
+in the 'New Agent' editor, click 'Create a new connection' blue text
+click the 'Create new Bing Grounding resource'
+in the 'New Agent' editor, input "your-bing-instance-for-test" in 'Name' field
+click 'Pricing tier' dropdown list
+select the first option available in the dropdown list
+scroll down one page
+check the 'I confirm I have read and understood the notice above.' checkbox
+click the 'Create and connection' blue button
+wait until progress bar 'Creating Bing Search connection...' disappears
+scroll down one page
+click the 'Create Agent on Azure AI Foundry' blue button
+wait until 'Update Agent on Azure AI Foundry' blue button appears
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+if the confirm dialog appears, then press key 'enter'
+click tree node item 'Agents' under RESOURCES panel
+wait until children of 'Agents' finish loading
+assert there is a node named 'vscuse-bing' under 'Agents' node
+click tree node item 'vscuse-bing' under 'Agents' node
+wait until 'AGENT PREFERENCES' text appears in the page
+click 'Edit Agent' button
+scroll down one page in the right area of the screen
+assert line 37 '- type: bing_grounding' is uncommented
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+right click tree node item 'vscuse-bing' under 'Agents' node
+click 'Open Playground' button from the dropdown menu that appears
+wait until 'Welcome to the playground!' shown in the page
+type 'what is the weather today in Shanghai?' in the chat input box at the middle bottom area of the 'Playground' page with enter
+wait until 'Generating response' disappears in the chat page
+assert user send a message 'what is the weather today in Shanghai?' to ask the weather and the agent replies a message of weather information to user in the 'Playground' page
+type 'ctrl+shift+P'
+type text 'View: Close All Editors' with enter
+right click tree node item 'vscuse-bing' under 'Agents' node
+click 'Delete' button from the dropdown menu that appears
+click 'Delete' button in the confirm dialog
+type 'alt+F4'

@@ -1,0 +1,5 @@
+2025-10-14 09:22:13.775 [error] #62: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Canceled
+2025-10-14 09:22:13.775 [error] #64: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-ossdata/vscode-postgresql/latest - error GET Canceled
+2025-10-14 09:22:13.775 [error] #65: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-azure-github-copilot/latest - error GET Canceled
+2025-10-14 09:22:13.775 [error] #67: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mtxr/sqltools/latest - error GET Canceled
+2025-10-14 09:22:13.775 [error] #46: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
