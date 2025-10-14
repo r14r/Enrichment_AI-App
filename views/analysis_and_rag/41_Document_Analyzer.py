@@ -3,7 +3,8 @@ import json
 
 import requests
 import streamlit as st
-from lib.helper_streamlit import add_select_model, generate
+
+from lib.helper_streamlit import models
 
 st.set_page_config(page_title="Mini Data Analyzer", page_icon="📄")
 st.title("📄🔍 Mini Data Analyzer (CSV & PDF)")
@@ -11,17 +12,11 @@ st.title("📄🔍 Mini Data Analyzer (CSV & PDF)")
 OLLAMA = "http://localhost:11434"
 
 # --- Model wählen --------------------------------------------------------------------------------
-try:
-    models = [
-        m["model"]
-        for m in requests.get(f"{OLLAMA}/api/tags", timeout=10).json().get("models", [])
-    ]
-except Exception:
-    models = ["llama3.2", "mistral:7b"]
+available_models = models()
 
 # --- Sidebar -------------------------------------------------------------------------------------
 with st.sidebar:
-    model = st.selectbox("Modell wählen", models)
+    model = st.selectbox("Modell wählen", available_models)
 
 question = st.text_input(
     "Deine Analysefrage", "Fasse die wichtigsten Erkenntnisse zusammen."
