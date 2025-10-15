@@ -1,0 +1,10 @@
+2025-10-15 11:59:36.294 [info] Experiment 'pythonSurveyNotification' is active
+2025-10-15 11:59:36.334 [info] Native locator: Refresh started
+2025-10-15 11:59:36.353 [info] > pyenv which python
+2025-10-15 11:59:36.353 [info] cwd: .
+2025-10-15 11:59:38.538 [info] Active interpreter [/Users/Ralph.Goestenmeier/temp/Enrichment_AI-App]:  /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.venv/python/bin/python
+2025-10-15 11:59:38.904 [info] Native locator: Refresh finished in 2569 ms
+2025-10-15 11:59:40.426 [info] Starting Pylance language server.
+2025-10-15 11:59:42.075 [info] Send text to terminal: source /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.venv/python/bin/activate
+2025-10-15 11:59:43.294 [info] Discover tests for workspace name: undefined - uri: /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.usr/User/profiles/-49c87050/settings.json
+2025-10-15 12:00:52.908 [info] Discover tests for workspace name: Enrichment_AI-App - uri: /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/views/chat_and_content/11_Chat_Sand_Box.py

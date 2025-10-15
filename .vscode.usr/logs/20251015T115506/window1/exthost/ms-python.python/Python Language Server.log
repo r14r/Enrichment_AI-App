@@ -1,0 +1,42 @@
+2025-10-15 11:59:39.661 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.16.0)
+2025-10-15 11:59:40.405 [info] (27132) Server root directory: file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-15 11:59:40.405 [info] (27132) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-15 11:59:40.411 [info] (27132) Starting service instance "Enrichment_AI-App" for workspace "/Users/Ralph.Goestenmeier/temp/Enrichment_AI-App"
+2025-10-15 11:59:40.475 [info] (27132) Loading pyproject.toml file at /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/pyproject.toml
+2025-10-15 11:59:40.477 [info] (27132) Pyproject file "/Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/pyproject.toml" has no "[tool.pyright]" section.
+2025-10-15 11:59:40.477 [info] (27132) Setting environmentName for service "Enrichment_AI-App": "python (3.11.13)"
+2025-10-15 11:59:40.477 [info] (27132) Setting pythonPath for service "Enrichment_AI-App": "/Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.venv/python/bin/python"
+2025-10-15 11:59:40.478 [info] (27132) No include entries specified; assuming /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App
+2025-10-15 11:59:40.478 [info] (27132) Auto-excluding **/node_modules
+2025-10-15 11:59:40.478 [info] (27132) Auto-excluding **/__pycache__
+2025-10-15 11:59:40.478 [info] (27132) Auto-excluding **/.*
+2025-10-15 11:59:40.516 [info] (27132) Assuming Python version 3.11.13.final.0
+2025-10-15 11:59:40.620 [info] (27132) Found 26 source files
+2025-10-15 11:59:40.644 [info] (27132) Settings have not changed. Skipping update.
+2025-10-15 11:59:40.839 [info] (27132) Starting Mcp server id:5586 ...
+2025-10-15 11:59:41.591 [info] (27132) BG: Priority queue background worker(2) root directory: file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-15 11:59:41.592 [info] (27132) BG: Priority queue background worker(2) started
+2025-10-15 11:59:41.897 [info] (27132) BG: Indexer background runner(3) root directory: file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-15 11:59:41.899 [info] (27132) BG: Indexing(3) started
+2025-10-15 11:59:42.700 [info] (27132) BG: scanned(3) 778 files over 1 exec env
+2025-10-15 11:59:42.859 [info] (27132) Starting service instance "<default>" for workspace ""
+2025-10-15 11:59:42.899 [info] (27132) Setting environmentName for service "<default>": "Python 3.13.7 (homebrew)"
+2025-10-15 11:59:42.900 [info] (27132) Setting pythonPath for service "<default>": "/usr/local/bin/python3"
+2025-10-15 11:59:42.900 [info] (27132) No include entries specified; assuming /<default workspace root>
+2025-10-15 11:59:42.902 [info] (27132) Auto-excluding **/node_modules
+2025-10-15 11:59:42.903 [info] (27132) Auto-excluding **/__pycache__
+2025-10-15 11:59:42.904 [info] (27132) Auto-excluding **/.*
+2025-10-15 11:59:43.025 [info] (27132) Assuming Python version 3.13.7.final.0
+2025-10-15 11:59:43.166 [error] (27132) File or directory "/<default workspace root>" does not exist.
+2025-10-15 11:59:43.166 [info] (27132) No source files found.
+2025-10-15 11:59:43.171 [info] (27132) Settings have not changed. Skipping update.
+2025-10-15 11:59:43.171 [info] (27132) Settings have not changed. Skipping update.
+2025-10-15 11:59:43.187 [info] (27132) Settings have not changed. Skipping update.
+2025-10-15 11:59:43.188 [info] (27132) Settings have not changed. Skipping update.
+2025-10-15 11:59:44.721 [info] (27132) BG: Priority queue background worker(5) root directory: file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-15 11:59:44.724 [info] (27132) BG: Priority queue background worker(5) started
+2025-10-15 11:59:45.437 [info] (27132) BG: [BG(1)] Long operation: SemanticTokens range 0:0 - 71:0 at file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/views/streamlit_hello/2_Dataframe_Demo.py (3691ms)
+2025-10-15 11:59:46.983 [info] (27132) BG: [IDX(3)] Long operation: index execution environment file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App (3975ms)
+2025-10-15 11:59:47.002 [info] (27132) BG: [IDX(3)] Long operation: index packages file:///Users/Ralph.Goestenmeier/temp/Enrichment_AI-App (4003ms)
+2025-10-15 11:59:47.003 [info] (27132) BG: indexed(3) 778 files over 1 exec env
+2025-10-15 11:59:47.150 [info] (27132) BG: Indexing finished(3).

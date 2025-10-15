@@ -1,0 +1,5 @@
+2025-10-15 11:59:26.637 [error] #36: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscjava/vscode-java-pack/latest - error GET Canceled
+2025-10-15 11:59:26.637 [error] #38: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-10-15 11:59:26.637 [error] #39: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/johnstoncode/svn-scm/latest - error GET Canceled
+2025-10-15 11:59:26.637 [error] #42: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-ossdata/vscode-postgresql/latest - error GET Canceled
+2025-10-15 11:59:26.638 [error] #21: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

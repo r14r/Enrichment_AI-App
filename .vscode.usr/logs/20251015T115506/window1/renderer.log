@@ -1,0 +1,34 @@
+2025-10-15 11:55:08.071 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-15 11:55:08.306 [info] Started local extension host with pid 24464.
+2025-10-15 11:55:09.408 [info] MCP Registry configured: https://api.mcp.github.com
+2025-10-15 11:55:09.580 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-15 11:55:11.242 [info] [perf] Render performance baseline is 22ms
+2025-10-15 11:59:26.639 [error] Cancelled: Canceled: Canceled
+    at BJe.O (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:36572)
+    at async BJe.N (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:35301)
+    at async BJe.D (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:24301)
+    at async vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23772
+    at async Promise.all (index 14)
+    at async BJe.C (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23723)
+    at async BJe.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:22380)
+    at async Hht.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2485:15150)
+    at async kqs.Rc (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:17026)
+    at async kqs.$c (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:19670)
+2025-10-15 12:04:45.369 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:09:48.334 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:14:52.325 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:19:56.587 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:25:00.654 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:30:04.767 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:35:09.398 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:40:14.120 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:45:18.830 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:50:23.535 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 12:55:28.343 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:00:32.962 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:05:37.732 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:10:42.610 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:15:47.415 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:20:52.125 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:25:56.827 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 13:31:01.088 [error] An unknown error occurred. Please consult the log for more details.

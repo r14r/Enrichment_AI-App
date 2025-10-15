@@ -1,0 +1,24 @@
+2025-10-15 11:59:35.036 [info] read schema from vscode: vscode://schemas/workspaceConfig
+2025-10-15 11:59:35.086 [info] read schema from vscode: vscode://schemas/extensions
+2025-10-15 11:59:35.087 [info] read schema from vscode: vscode://schemas/mcp
+2025-10-15 11:59:35.087 [info] read schema from vscode: vscode://schemas/tasks
+2025-10-15 11:59:35.089 [info] read schema from vscode: vscode://schemas/launch
+2025-10-15 11:59:35.089 [info] read schema from vscode: vscode://schemas/settings/workspace
+2025-10-15 11:59:35.192 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-10-15 11:59:35.202 [info] read schema from vscode: vscode://schemas/token-styling
+2025-10-15 11:59:35.202 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-10-15 11:59:35.202 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-10-15 11:59:35.204 [info] schema change detected vscode://schemas/tasks
+2025-10-15 11:59:35.249 [info] schema change detected vscode://schemas/launch
+2025-10-15 11:59:35.250 [info] schema change detected vscode://schemas/launch
+2025-10-15 11:59:35.251 [info] schema change detected vscode://schemas/tasks
+2025-10-15 11:59:35.438 [info] schema change detected vscode://schemas/settings/workspace
+2025-10-15 11:59:36.146 [info] cancelled
+2025-10-15 11:59:36.342 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-10-15 11:59:36.436 [info] schema change detected vscode://schemas/settings/workspace
+2025-10-15 11:59:36.953 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-10-15 11:59:37.021 [info] schema change detected vscode://schemas/settings/workspace
+2025-10-15 11:59:37.416 [info] schema change detected vscode://schemas/settings/workspace
+2025-10-15 11:59:41.490 [info] schema change detected vscode://schemas/settings/workspace
+2025-10-15 11:59:42.858 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-10-15 11:59:42.939 [info] schema change detected vscode://schemas/settings/workspace
