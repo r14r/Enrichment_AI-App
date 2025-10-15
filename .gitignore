@@ -4,6 +4,10 @@
 .envrc
 .set_env.sh
 
+.vscode
+.vscode.usr
+.vscode.ext
+
 __pycache__
 **/__pycache__
 
