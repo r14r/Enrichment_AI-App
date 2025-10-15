@@ -79,3 +79,8 @@ watch:
 # Pre-commit checks (what CI would run)
 ci: format check-all test-cov
     @echo "CI checks complete"
+
+
+run:
+	streamlit run App.py
+
