@@ -1,9 +1,0 @@
-2025-10-15 11:55:06.750 [info] update#setState idle
-2025-10-15 11:55:36.755 [info] update#setState checking for updates
-2025-10-15 11:55:37.039 [info] update#setState downloading
-2025-10-15 11:55:51.228 [error] UpdateService error: Code signature at URL file:///Users/Ralph.Goestenmeier/Library/Caches/com.microsoft.VSCodeInsiders.ShipIt/update.EWxoDcX/Visual%20Studio%20Code%20-%20Insiders.app/ did not pass validation: Die angegebenen Code-Anforderungen wurden nicht erfüllt.
-2025-10-15 11:55:51.228 [info] update#setState idle
-2025-10-15 12:55:36.779 [info] update#setState checking for updates
-2025-10-15 12:55:36.903 [info] update#setState downloading
-2025-10-15 12:55:47.526 [error] UpdateService error: Code signature at URL file:///Users/Ralph.Goestenmeier/Library/Caches/com.microsoft.VSCodeInsiders.ShipIt/update.lX5mZ9d/Visual%20Studio%20Code%20-%20Insiders.app/ did not pass validation: Die angegebenen Code-Anforderungen wurden nicht erfüllt.
-2025-10-15 12:55:47.526 [info] update#setState idle

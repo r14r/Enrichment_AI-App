@@ -1,8 +1,0 @@
-2025-10-15 11:59:41.113 [info] Using the only workspaceFolder found:  /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App
-2025-10-15 11:59:41.118 [info] Resolving launch configuration with substituted variables
-2025-10-15 11:59:41.118 [info] Using the only workspaceFolder found:  /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App
-2025-10-15 11:59:41.125 [info] DAP Server launched with command: /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.venv/python/bin/python /Users/Ralph.Goestenmeier/temp/Enrichment_AI-App/.vscode.ext/ms-python.debugpy-2025.14.1-darwin-x64/bundled/libs/debugpy/adapter
-2025-10-15 11:59:41.506 [info] Received 'debugpySockets' event from debugpy.
-2025-10-15 11:59:41.507 [info] Received 'debugpySockets' event from debugpy.
-2025-10-15 11:59:41.508 [info] Received 'debugpySockets' event from debugpy.
-2025-10-15 11:59:45.150 [info] Received 'debugpySockets' event from debugpy.
