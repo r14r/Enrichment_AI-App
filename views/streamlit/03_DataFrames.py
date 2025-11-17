@@ -25,6 +25,6 @@ config = {
 }
 
 if st.toggle("Enable editing"):
-    edited_data = st.data_editor(data, column_config=config, use_container_width=True)
+    edited_data = st.data_editor(data, column_config=config, width='stretch')
 else:
-    st.dataframe(data, column_config=config, use_container_width=True)
+    st.dataframe(data, column_config=config, width='stretch')

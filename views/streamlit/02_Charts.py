@@ -16,4 +16,4 @@ if rolling_average:
 
 tab1, tab2 = st.tabs(["Chart", "Dataframe"])
 tab1.line_chart(data, height=250)
-tab2.dataframe(data, height=250, use_container_width=True)
+tab2.dataframe(data, height=250, width='stretch')
