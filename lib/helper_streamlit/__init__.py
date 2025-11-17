@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from typing import Iterable, List
+from typing import Iterable, List, Optional
 
 import requests
 import streamlit as st
@@ -18,23 +18,43 @@ def _extract_model_names(models_payload: Iterable[dict]) -> List[str]:
     return [name for name in names if name]
 
 
-def models() -> List[str]:
-    """Fetch available Ollama models with sensible fallbacks.
+VISION_MODELS = ("vision", "llava", "bakllava")
 
-    When the Ollama server cannot be reached we keep the UX intact by returning a
-    set of commonly available models.
-    """
 
+class ModelType:
+    TEXT = "text"
+    VISION = "vision"
+
+# -------------------------------------------------------------------------------------------------
+def get_models(type: Optional[ModelType]) -> List[str]:
     try:
         response = requests.get(f"{OLLAMA}/api/tags", timeout=3)
         response.raise_for_status()
         payload = response.json().get("models", [])
         names = _extract_model_names(payload)
-        return names or ["llama3.2", "mistral:7b"]
+
+        models = names or ["llama3.2", "mistral:7b"]
     except Exception:  # noqa: BLE001 - best effort fallback for UI friendliness
-        return ["llama3.2", "mistral:7b"]
+        models = ["llama3.2", "mistral:7b"]
 
+    if type == ModelType.VISION:
+        # Filter models that contain any vision-related keyword in their name
+        models = [
+            name
+            for name in models if any(keyword in name.lower() for keyword in VISION_MODELS)
+        ]
+    elif type is None or type == ModelType.TEXT:
+        models = [
+            name
+            for name in models if all(keyword not in name.lower() for keyword in VISION_MODELS)
+        ]
+        
+    return models
 
+def get_vision_models() -> list[str]:
+    return get_models(ModelType.VISION)
+    
+# -------------------------------------------------------------------------------------------------
 def generate(model: str, prompt: str) -> str:
     """Stream responses from Ollama into the UI and return the final text."""
 
@@ -54,7 +74,7 @@ def generate(model: str, prompt: str) -> str:
     return acc
 
 
-def add_select_model(label: str = "Modell") -> str:
+def add_select_model(label: str = "Modell", modeltype: Optional[ModelType] = None) -> str:
     """Render a model selectbox with the available Ollama models."""
 
-    return st.selectbox(label, models())
+    return st.selectbox(label, get_models(modeltype))

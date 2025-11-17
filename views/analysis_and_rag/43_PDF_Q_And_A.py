@@ -12,6 +12,7 @@ st.set_page_config(page_title="PDF Q&A", page_icon="📄")
 
 st.title("📄 PDF Q&A")
 model = add_select_model()
+
 upload = st.file_uploader("PDF hochladen", type=["pdf"])
 question = st.text_input("Frage", "Fasse die Kernaussagen zusammen.")
 
@@ -38,7 +39,10 @@ if upload:
 if st.button("Analysieren", disabled=not extracted_text.strip()):
     prompt = (
         "Analysiere folgenden PDF-Text (gekürzt) und beantworte: "
-        f"{question}. Antworte strukturiert auf Deutsch.\n\n"
+        f"{question}."
+        "\n\n"
+        "Antworte strukturiert auf Deutsch."
+        "\n\n"
         f"{extracted_text[:12000]}"
     )
     generate(model, prompt)

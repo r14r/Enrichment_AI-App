@@ -4,7 +4,7 @@ import json
 import requests
 import streamlit as st
 
-from lib.helper_streamlit import models
+from lib.helper_streamlit import get_models
 
 st.set_page_config(page_title="Mini Data Analyzer", page_icon="📄")
 st.title("📄🔍 Mini Data Analyzer (CSV & PDF)")
@@ -12,7 +12,7 @@ st.title("📄🔍 Mini Data Analyzer (CSV & PDF)")
 OLLAMA = "http://localhost:11434"
 
 # --- Model wählen --------------------------------------------------------------------------------
-available_models = models()
+available_models = get_models()
 
 # --- Sidebar -------------------------------------------------------------------------------------
 with st.sidebar:
